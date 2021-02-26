@@ -18,8 +18,15 @@ A datapackage consists of 22 tab separated value (.tsv) files populated with int
 
 ## Installing the tools
 
+### Helper script
+
+### cfde-submit
+
 To submit your data you will need to install the `cfde-submit` tool. 
 
-## Checking your submission
+### OPTIONAL: frictionless
+
+
+## Checking and approving your submission
 
 
