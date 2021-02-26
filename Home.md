@@ -22,7 +22,15 @@ A datapackage consists of 22 tab separated value (.tsv) files populated with int
 
 ### cfde-submit
 
-To submit your data you will need to install the `cfde-submit` tool. 
+To submit your data you will need to install the `cfde-submit` tool
+
+To avoid potential conflicts, we recommended installing cfde-submit from within a Python 3 virtual environment ([(more info)](https://github.com/nih-cfde/cfde-submit/blob/main/docs/install/index.md))
+
+To install the tool:
+
+`pip3 install cfde-submit`
+
+Full documentation is available here: https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md
 
 ### OPTIONAL: frictionless
 
