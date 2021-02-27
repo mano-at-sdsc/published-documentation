@@ -20,6 +20,7 @@
   - [file_describes_biosample.tsv](./TableInfo:-file_describes_biosample.tsv)
   - [file_format.tsv](./TableInfo:-file_format.tsv)
   - [file_in_collection.tsv](./TableInfo:-file_in_collection.tsv)
+  - [id_namespace.tsv](./TableInfo:-id_namespace.tsv)
   - [ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)
   - [primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)
   - [project.tsv](./TableInfo:-project.tsv)
@@ -27,4 +28,3 @@
   - [subject.tsv](./TableInfo:-subject.tsv)
   - [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)
   - [subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)
-  - [id_namespace.tsv](./TableInfo:-id_namespace.tsv)
