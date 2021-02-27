@@ -34,6 +34,8 @@ Full documentation is available here: https://github.com/nih-cfde/cfde-submit/bl
 
 ### OPTIONAL: frictionless
 
+`pip install frictionless-py`
+`frictionless validate data/datapackage.json`
 
 ## Checking and approving your submission
 
