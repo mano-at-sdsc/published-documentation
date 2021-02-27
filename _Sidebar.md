@@ -28,7 +28,7 @@
     - [subject.tsv](./TableInfo:-subject.tsv)
     - [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)
     - [subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)
-  - [Reference Tables](./Reference Tables)
+  - [Reference Tables](./Reference-Tables)
     - [subject_granularity](./TableInfo:-subject_granularity.tsv)
     - [subject_role](./TableInfo:-subject_role.tsv)
 
