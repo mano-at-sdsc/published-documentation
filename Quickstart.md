@@ -53,5 +53,5 @@ One person at your DCC will have the role of Data Approver. This person verifies
 
 ## Troubleshooting
 
-If your datapackage submits, it has passed very basic error checking, but a much more extensive check happens when it is ingested into the database. If your datapackage has a problem, the error message will be included both in the email telling you submission is completed, and in the data submission system in the portal. In the portal, your error message will appear as 'Diagnostics'. For more help with your specific error message please search the left sidebar for common errors, or email [the helpdesk](support@cfde.atlassian.net) for assistance.
+If your datapackage submits, it has passed very basic error checking, but a much more extensive check happens when it is ingested into the database. If your datapackage has a problem, the error message will be included both in the email telling you submission is completed, and in the data submission system in the portal. In the portal, your error message will appear as 'Diagnostics'. For more help with your specific error message please search the left sidebar for common errors, ask questions in [Discussions](https://github.com/nih-cfde/published-documentation/discussions) or email [the helpdesk](support@cfde.atlassian.net) for assistance.
 
