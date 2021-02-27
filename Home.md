@@ -63,5 +63,5 @@ Our submission system runs the [frictionless validator](https://pypi.org/project
 
 ## Checking and approving your submission
 
-Once a datapackage has been submitted 
+Once a datapackage has been submitted you can view it in the portal to see how it will appear for portal users. See [How to review your datapackage](https://github.com/nih-cfde/published-documentation/wiki/How-to-review-a-datapackage) for more details.
 
