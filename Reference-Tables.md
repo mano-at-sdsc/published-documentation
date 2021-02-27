@@ -1,0 +1,1 @@
+Reference tables should not be included in your datapackage, but they contain values you will need to populate some tables.
