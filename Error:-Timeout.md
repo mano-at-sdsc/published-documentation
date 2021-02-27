@@ -1,13 +1,13 @@
-Software/command: cfde-submit run
+**Software/command:** cfde-submit run
 
-Error text:
+**Error text:**
 `Timeout`
 
 Timeout errors usually indicate that a table that otherwise passed validation is subtlety malformed.
 
-Possible solutions:
+**Possible solutions:**
 
-1. File encodings
+**1. Fix file encodings**
 
 Our database takes flat text files, and expects ASCII type encodings. Especially if you have built parts of your table by scraping webservices, files or portions of your files, may use other encodings. You can check your encodings by running:
 
@@ -43,3 +43,7 @@ subject.tsv:                       ASCII text
 ```
 
 ASCII or UTF encodings are fine. However ISO type encodings like the one for `project.tsv` above will need to be re-encoded.
+
+**1. File size limitations**
+
+If you have tried all the other solutions on this page, and are still getting timeout errors, it's possible that the size or complexity of your submission is exceeding our processing limits. If you suspect this is the case please email [the helpdesk](support@cfde.atlassian.net) for support.
