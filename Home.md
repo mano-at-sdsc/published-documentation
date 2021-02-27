@@ -5,6 +5,14 @@ This wiki is a companion to the detailed [technical documentation](https://docs.
 
 The Crosscut Metadata Model (C2M2), a flexible metadata standard for describing experimental resources in biomedicine and related fields. At the Common Fund Data Ecosystem (CFDE) we use the C2M2 as our centralized model of participating datasets in a rich relational database hosted at [https://app.nih-cfde.org/](https://app.nih-cfde.org/). This portal supports faceted search of metadata concepts such as anatomical location, species, and assay type, across a wide variety of datasets using a controlled vocabulary. This allows researchers to find a wide variety of data that would otherwise need to be searched individually, using varying nomenclatures. Currently, the portal only accepts C2M2 datapackages from Common Fund Programs. If you represent the Data Coordination Center from a Common Fund Program, and would like to know more about joining the Common Fund Data Ecosystem please contact us by emailing [support@cfde.atlassian.net](support@cfde.atlassian.net). Funding is available for Common Fund Programs who wish to participate, see [Engagement Opportunities for Common Fund Programs](https://www.nih-cfde.org/engagement_page/engagement-opportunities-for-common-fund-programs/) for more information.
 
+# How does the CFDE Data Submission System work?
+
+
+
+DCCs submit data packages to the CFDE Data Submission System using the `cfde-submit` tool. This tool takes a directory as input, does some initial validation, then builds the directory into a [bdbag](https://github.com/fair-research/bdbag) and submits the data to an authenticated [Globus](https://www.globus.org/) endpoint. This process should take less than 30 seconds on your local computer, and the tool will report `Your dataset has been submitted`.
+
+Once your data is in the in the Globus endpoint, our database [(Deriva)](http://isrd.isi.edu/deriva/) will automatically begin ingesting the datapackage, and doing further validation. This process will take several minutes, but is done completely on our servers, so you don't need to stay connected. However, you can check the status of your ingest using `cfde-submit status`. When your Deriva finishes your ingest, you will receive an email that contains information about the datapackage, including a link to view the data in the CFDE data portal. You can also navigate directly to the 
+
 # QuickStart: Participating in the CFDE Portal
 
 ## Joining the CFDE
@@ -13,7 +21,7 @@ The Data Coordination Center (DCC) for each participating Common Fund Program ne
 
 ## Onboarding to the CFDE portal
 
-
+Each person who needs access to submit data on behalf of your DCC, see submitted your DCCs pending data submission, or approve a pending data submission will need to be [onboarded to the Submission System](https://github.com/nih-cfde/published-documentation/wiki/Onboarding-to-the-CFDE-Portal-Submission-System). 
 
 ## Creating your datapackage
 
@@ -36,11 +44,17 @@ To install the tool:
 
 Full documentation is available here: https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md
 
+Note that only users who have been [onboarded as Data Submitters](https://github.com/nih-cfde/published-documentation/wiki/Onboarding-to-the-CFDE-Portal-Submission-System) for a DCC will be able to successfully run the cfde-submit tool. 
+
 ### OPTIONAL: frictionless
 
+Our submission system runs the [frictionless validator](https://pypi.org/project/frictionless/) on our servers as part of the submission process. You do *not* need to install or run frictionless to use our tool, however if you would like to use the validator locally, you can install it using these commands:
+
 `pip install frictionless-py`
+
 `frictionless validate data/datapackage.json`
 
 ## Checking and approving your submission
 
+Once a datapackage has been submitted 
 
