@@ -1,1 +1,1 @@
-need some words here
+Staring at “log in”, then going to the submitted datapackage page, looking at summary charts, exploring with browse data
