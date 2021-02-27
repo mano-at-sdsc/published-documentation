@@ -7,7 +7,7 @@ The Crosscut Metadata Model (C2M2), a flexible metadata standard for describing 
 
 # How does the CFDE Data Submission System work?
 
-
+![high level datapackage submission workflow](https://github.com/nih-cfde/published-documentation/blob/dev/docs/images/datapackageflow.png)
 
 DCCs submit data packages to the CFDE Data Submission System using the `cfde-submit` tool. This tool takes a directory as input, does some initial validation, then builds the directory into a [bdbag](https://github.com/fair-research/bdbag) and submits the data to an authenticated [Globus](https://www.globus.org/) endpoint. This process should take less than 30 seconds on your local computer, and the tool will report `Your dataset has been submitted`.
 
