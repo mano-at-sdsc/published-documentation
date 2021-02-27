@@ -1,5 +1,9 @@
 
-This wiki is a companion to the detailed [technical documentation](https://docs.nih-cfde.org/) for participating in the Common Fund Data Ecosystem Portal. Use the sidebar to search for key words, ask questions or search common errors in [Discussions](https://github.com/nih-cfde/published-documentation/discussions) or get started with our [QuickStart](./Quickstart).
+This wiki is a companion to the detailed [technical documentation](https://docs.nih-cfde.org/) for participating in the Common Fund Data Ecosystem Portal. 
+
+- Use the sidebar to search for key words
+- Ask questions or search common errors in [Discussions](https://github.com/nih-cfde/published-documentation/discussions) 
+- Get started on your submission with our [QuickStart](./Quickstart)
 
 # What is the C2M2?
 
