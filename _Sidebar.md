@@ -1,4 +1,4 @@
-- [Home](./wiki)
+- [Home](.)
 - [Quickstart Guide](./Quickstart)
 - [Discussions & Help](https://github.com/nih-cfde/published-documentation/discussions)
 - Tutorials
