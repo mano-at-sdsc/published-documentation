@@ -6,11 +6,11 @@ The Data Coordination Center (DCC) for each participating Common Fund Program ne
 
 ## Onboarding to the CFDE portal
 
-Each person who needs access to submit data on behalf of your DCC, see submitted your DCCs pending data submission, or approve a pending data submission will need to be [onboarded to the Submission System](https://github.com/nih-cfde/published-documentation/wiki/Onboarding-to-the-CFDE-Portal-Submission-System). 
+Each person who needs access to submit data on behalf of your DCC, see submitted your DCCs pending data submission, or approve a pending data submission will need to be [onboarded to the Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System). 
 
 ## Creating your datapackage
 
-A datapackage consists of 22 tab separated value (.tsv) files populated with interrelated metadata about the data assets owned by your DCC. Assuming you fill all of the tables, a datapackage submission will make your data searchable by concepts such as anatomical location, species, assay type, and other similar terms that are useful to researchers who are looking for new datasets. This datapackage can be created at several arbitrary levels of complexity, as many of the columns and several entire tables can be left empty and still produce a valid package. However, search-ability in the CFDE portal is highly correlated with model completeness, and as such the Coordination Center recommends making your datapackage as complete as possible. The full specification for all tables is available in the [technical documentation](https://docs.nih-cfde.org/). See the [C2M2-Table-Summary](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for an high level description the tables.
+A datapackage consists of 22 tab separated value (.tsv) files populated with interrelated metadata about the data assets owned by your DCC. Assuming you fill all of the tables, a datapackage submission will make your data searchable by concepts such as anatomical location, species, assay type, and other similar terms that are useful to researchers who are looking for new datasets. This datapackage can be created at several arbitrary levels of complexity, as many of the columns and several entire tables can be left empty and still produce a valid package. However, search-ability in the CFDE portal is highly correlated with model completeness, and as such the Coordination Center recommends making your datapackage as complete as possible. The full specification for all tables is available in the [technical documentation](https://docs.nih-cfde.org/). See the [C2M2-Table-Summary](./C2M2-Table-Summary) for an high level description the tables.
 
 
 ## Installing the tools
@@ -33,7 +33,7 @@ To install the tool:
 
 Full documentation is available here: https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md
 
-Note that only users who have been [onboarded as Data Submitters](https://github.com/nih-cfde/published-documentation/wiki/Onboarding-to-the-CFDE-Portal-Submission-System) for a DCC will be able to successfully run the cfde-submit tool. 
+Note that only users who have been [onboarded as Data Submitters](./Onboarding-to-the-CFDE-Portal-Submission-System) for a DCC will be able to successfully run the cfde-submit tool. 
 
 ### OPTIONAL: frictionless
 
@@ -45,11 +45,11 @@ Our submission system runs the [frictionless validator](https://pypi.org/project
 
 ## Checking your submission
 
-Once a datapackage has been submitted you can view it in the portal to see how it will appear for portal users. See [How to review your datapackage](https://github.com/nih-cfde/published-documentation/wiki/How-to-review-a-datapackage) for more details.
+Once a datapackage has been submitted you can view it in the portal to see how it will appear for portal users. See [How to review your datapackage](./How-to-review-a-datapackage) for more details.
 
 ## Approving your submission
 
-One person at your DCC will have the role of Data Approver. This person verifies that a datapackage is acceptable to the DCC and approves it for inclusion in the next data release. Although DCCs can have any number of Reviewable Submissions, each can have only a single Approved Submission for public release. See [How to approve your datapackage](https://github.com/nih-cfde/published-documentation/wiki/How-to-approve-your-datapackage)
+One person at your DCC will have the role of Data Approver. This person verifies that a datapackage is acceptable to the DCC and approves it for inclusion in the next data release. Although DCCs can have any number of Reviewable Submissions, each can have only a single Approved Submission for public release. See [How to approve your datapackage](./How-to-approve-your-datapackage)
 
 ## Troubleshooting
 
