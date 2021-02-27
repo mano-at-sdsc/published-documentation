@@ -31,7 +31,7 @@ To install the tool:
 
 `pip3 install cfde-submit`
 
-Full documentation is available here: https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md
+See the full [cfde-submit](https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md) documentation for more information.
 
 Note that only users who have been [onboarded as Data Submitters](./Onboarding-to-the-CFDE-Portal-Submission-System) for a DCC will be able to successfully run the cfde-submit tool. 
 
