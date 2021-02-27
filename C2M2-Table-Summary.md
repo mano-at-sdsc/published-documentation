@@ -16,7 +16,7 @@ collection|Table must be submitted with all headers. Fields are all optional.|Th
 collection_defined_by_project|Table must be submitted with all headers. Fields are all optional.|
 collection_in_collection|Table must be submitted with all headers. Fields are all optional.|
 data_type|Automatically created by submission software|
-[file](https://github.com/nih-cfde/published-documentation/wiki/TableInfo:-file.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have files
+[file](./TableInfo:-file.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have files
 file_describes_biosample|Table must be submitted with all headers. Fields are all optional.|
 file_describes_subject|Table must be submitted with all headers. Fields are all optional.|
 file_format|Automatically created by submission software|
