@@ -61,7 +61,15 @@ Our submission system runs the [frictionless validator](https://pypi.org/project
 
 `frictionless validate data/datapackage.json`
 
-## Checking and approving your submission
+## Checking your submission
 
 Once a datapackage has been submitted you can view it in the portal to see how it will appear for portal users. See [How to review your datapackage](https://github.com/nih-cfde/published-documentation/wiki/How-to-review-a-datapackage) for more details.
+
+## Approving your submission
+
+One person at your DCC will have the role of Data Approver. This person verifies that a datapackage is acceptable to the DCC and approves it for inclusion in the next data release. Although DCCs can have any number of Reviewable Submissions, each can have only a single Approved Submission for public release. See [How to approve your datapackage](https://github.com/nih-cfde/published-documentation/wiki/How-to-approve-your-datapackage)
+
+## Troubleshooting
+
+If your datapackage submits, it has passed very basic error checking, but a much more extensive check happens when it is ingested into the database. If your datapackage has a problem, the error message will be included both in the email telling you submission is completed, and in the data submission system in the portal. In the portal, your error message will appear as 'Diagnostics'. For more help with your specific error message please search the left sidebar for common errors, or email [the helpdesk](support@cfde.atlassian.net) for assistance.
 
