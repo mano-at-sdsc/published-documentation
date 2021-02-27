@@ -1,0 +1,8 @@
+- [Home](./wiki)
+- [Quickstart Guide](./Quickstart)
+- Tutorials
+  - [Onboarding](./Onboarding-to-the-CFDE-Portal-Submission-System)
+  - [Reviewing datapackages](./How-to-review-a-datapackage)
+  - [Approving datapacakages](./How-to-approve-your-datapackage)
+- C2M2 Table Guide
+  - [Table Summary](./C2M2-Table-Summary)
