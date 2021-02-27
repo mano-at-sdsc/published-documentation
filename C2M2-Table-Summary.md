@@ -1,3 +1,10 @@
+- All tables must be submitted simultaneously (and with the provided JSON specification) to create a valid datapackage
+- Unused tables should be submitted with only the header row populated
+- Table names must exactly match the list below (and JSON specification)
+- Table headers must exactly match the headers listed in that table (and JSON specification)
+- Table columns must appear in the order listed in that table (and JSON specification)
+- Tables must not contain empty rows between populated rows (trailing empty rows are fine)
+
 Table (click for detailed information)|Requirement for Submission|Table Features
 -----------| -----------| -------------
 anatomy|Automatically created by submission software|
