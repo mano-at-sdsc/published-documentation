@@ -7,3 +7,4 @@
   - [Approving datapacakages](./How-to-approve-your-datapackage)
 - C2M2 Table Guide
   - [Table Summary](./C2M2-Table-Summary)
+  - [file.tsv](./TableInfo:-file.tsv)
