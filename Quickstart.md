@@ -25,7 +25,7 @@ Five of the tables required by the C2M2 can be automatically generated from the 
 
 To submit your data you will need to install the `cfde-submit` tool
 
-To avoid potential conflicts, we recommended installing cfde-submit from within a Python 3 virtual environment ([more info](https://github.com/nih-cfde/cfde-submit/blob/main/docs/install/index.md))
+To avoid potential conflicts, we recommended installing cfde-submit from within a Python 3 virtual environment ([more info](https://docs.nih-cfde.org/en/latest/cfde-submit/docs/install/))
 
 To install the tool:
 
@@ -35,7 +35,7 @@ To use the tool, give it the path to the directory containing all 22 tables plus
 
 `cfde-submit run PATH/TO/DIRECTORY`
 
-See the full [cfde-submit](https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md) documentation for more information.
+See the full [cfde-submit](https://docs.nih-cfde.org/en/latest/cfde-submit/docs/) documentation for more information.
 
 Note that only users who have been [onboarded as Data Submitters](./Onboarding-to-the-CFDE-Portal-Submission-System) for a DCC will be able to successfully run the cfde-submit tool. 
 
