@@ -17,7 +17,7 @@ A datapackage consists of 22 tab separated value (.tsv) files populated with int
 
 ### Helper script
 
-Five of the tables required by the C2M2 can be automatically generated from the other tables. Once you have created the other tables, run our helper script to create the anatomy, assay_type, data_type, file_format and ncbi_taxonomy tables:
+Five of the tables required by the C2M2 can be automatically generated from the other tables. Once you have created the other tables, run our helper script to create the anatomy, assay_type, data_type, file_format and ncbi_taxonomy tables. It will also create a copy of the JSON schema:
 
 `put command here`
 
@@ -30,6 +30,10 @@ To avoid potential conflicts, we recommended installing cfde-submit from within 
 To install the tool:
 
 `pip3 install cfde-submit`
+
+To use the tool, give it the path to the directory containing all 22 tables plus the required JSON schema file:
+
+`cfde-submit run PATH/TO/DIRECTORY`
 
 See the full [cfde-submit](https://github.com/nih-cfde/cfde-submit/blob/main/docs/index.md) documentation for more information.
 
