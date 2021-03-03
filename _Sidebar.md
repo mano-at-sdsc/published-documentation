@@ -19,6 +19,7 @@
     - [data_type.tsv](./TableInfo:-data_type.tsv)
     - [file.tsv](./TableInfo:-file.tsv)
     - [file_describes_biosample.tsv](./TableInfo:-file_describes_biosample.tsv)
+    - [file_describes_subject.tsv](./TableInfo:-file_describes_subject.tsv)
     - [file_format.tsv](./TableInfo:-file_format.tsv)
     - [file_in_collection.tsv](./TableInfo:-file_in_collection.tsv)
     - [id_namespace.tsv](./TableInfo:-id_namespace.tsv)
