@@ -1,6 +1,7 @@
 - [Home](.)
 - [Quickstart Guide](./Quickstart)
 - [Discussions & Help](https://github.com/nih-cfde/published-documentation/discussions)
+- [Technical Documentation](https://docs.nih-cfde.org/)
 - Tutorials
   - [Onboarding](./Onboarding-to-the-CFDE-Portal-Submission-System)
   - [Reviewing datapackages](./How-to-review-a-datapackage)
