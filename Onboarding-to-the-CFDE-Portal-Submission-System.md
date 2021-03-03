@@ -9,7 +9,8 @@ If a user has one or more of the other roles, they get those privileges. Privile
 
 We’re still working out how we will administer roles long term in practice. For the moment, @ACharbonneau is acting as admin on all of them until we’re sure the system is working.
 
-To do the onboarding, for each person in your org who needs a role you will need to tell us:
+To do the onboarding, please have a PI or PM at your organization give us a list of people in your org who need Submission System access. For each person please list:
+
 - [their Globus display name](https://github.com/nih-cfde/security/blob/master/epic-1-groups/dcc-instructions.md)
 - what role(s) you want them to have
 
