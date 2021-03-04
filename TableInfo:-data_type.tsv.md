@@ -1,5 +1,8 @@
 This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
 
+The data_type.tsv table should have as many rows as you have unique Uberon IDs in the `anatomy` column of [file.tsv](./TableInfo:-file.tsv)
+
+
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
 **id** | An EDAM CV term | Required | Value must be a valid EDAM ID | [EDAM data type lookup](https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_0006&viewMode=All&siblings=false) <br /> Example valid EDAM IDs: `data:2044`, `data:2050`, `data:2082` 
