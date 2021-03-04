@@ -1,5 +1,8 @@
 The biosample_in_collection table will contain one row per biosample-collection pair in your Program
 
+If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of collections/biosamples. Not all collections need biosamples, not all biosamples need to be part of a collection.
+
+
 Some examples:   
 - If you have exactly one collection, and want all your biosamples in that collection, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv), and the value for columns 3 and 4 will be the same for this entire table
 - If you have exactly one collection, and only want *a subset* your biosamples in that collection, you will have you will have an equal number of rows and biosamples in your subset, where the value for columns 3 and 4 are the same for the entire table
