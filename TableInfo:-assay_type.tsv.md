@@ -1,5 +1,7 @@
 This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
 
+The assay_type.tsv table should have as many rows as you have unique OBI IDs in the `assay_type` column of [file.tsv](./TableInfo:-file.tsv)
+
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
 **id** | An OBI CV term | Required | Value must be a valid OBI ID | [OBI lookup service](http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0000070) Example valid OBI IDs: `OBI:0000366`, `OBI:0001177`, `OBI:0002763` 
