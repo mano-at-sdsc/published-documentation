@@ -1,6 +1,6 @@
 This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
 
-The data_type.tsv table should have as many rows as you have unique Uberon IDs in the `anatomy` column of [file.tsv](./TableInfo:-file.tsv)
+The data_type.tsv table should have as many rows as you have unique EDAM IDs in the `data_type` column of [file.tsv](./TableInfo:-file.tsv)
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
