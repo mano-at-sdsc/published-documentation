@@ -1,4 +1,4 @@
-If you have populated [collection.tsv](./TableInfo:-collection.tsv) you must assign those collections to projects
+If you have populated [collection.tsv](./TableInfo:-collection.tsv) you must assign those collections to project(s) 
 
 collection_defined_by_project table will contain one row per collection in [collection.tsv](./TableInfo:-collection.tsv) 			
 
