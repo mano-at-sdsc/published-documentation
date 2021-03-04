@@ -1,4 +1,4 @@
-This table does *not* need to be manually created. Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
+This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables. 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
