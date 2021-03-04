@@ -1,8 +1,8 @@
-This table does *not* need to be manually created. Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
+This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
-**id** | An NCBI Taxonomy Database ID identifying a particular taxon | Required | Value type is string 
+**id** | An NCBI Taxonomy Database ID identifying a particular taxon | Required | Value type is string | [NCBI Taxonomy lookup service](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi) Example valid ids: `NCBI:txid9606`, `NCBI:txid3702`, `NCBI:txid10116` 
 **clade** | The phylogenetic level (e.g. species, genus) assigned to this taxon| Required | Value type is string
 **name** | A short, human-readable, machine-read-friendly label for this taxon | Non-required: Any number of rows after the header can be filled | Value type is string
 **description** | A human-readable description of this Uberon term |  Non-required: Any number of rows after the header can be filled | Value type is string
