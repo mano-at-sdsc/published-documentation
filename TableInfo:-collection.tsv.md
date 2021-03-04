@@ -1,5 +1,7 @@
 The collection table will have as many rows as you have Collections in your Program. 
 
+If you define collections, you must also assign them to projects in [project.tsv](./TableInfo:-project.tsv)
+
 This is where all of your Collections are created
 
 Collections are groupings of files, biosamples and/or subjects	
