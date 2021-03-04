@@ -1,4 +1,4 @@
-- All tables must be submitted simultaneously (and with the provided JSON specification) to create a valid datapackage
+- All tables in this summary must be submitted simultaneously (and with the [master C2M2_datapackage JSON file](https://osf.io/e5tc2/)) to create a valid datapackage
 - Unused tables should be submitted with only the header row populated
 - Table names must exactly match the list below (and JSON specification)
 - Table headers must exactly match the headers listed in that table (and JSON specification)
