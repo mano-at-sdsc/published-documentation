@@ -1,6 +1,18 @@
+The file_in_collection table will contain one row per file-collection pair in your Program
+
+If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of collections/files. Not all collections need files, not all files need to be part of a collection.
+
+
+Some examples:   
+- If you have exactly one collection, and want all your files in that collection, this table will have the same number of rows as [file.tsv](./TableInfo:-file.tsv), and the value for columns 3 and 4 will be the same for this entire table
+- If you have exactly one collection, and only want *a subset* your files in that collection, you will have you will have an equal number of rows and files in your subset, where the value for columns 3 and 4 are the same for the entire table
+- If each file is associated with exactly one collection, you will have an equal number of rows and files
+- If a file should appear in two unrelated collections, that file will need two rows, where the first two columns are duplicated, and the last two columns specify the two different collections
+- If a file should appear in two or more collections that are defined as being nested in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table, it should only appear in one row, with the collection_id_namespace and collection_local_id for the most specific collection. It will inherit the parent collections automatically.
+
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
-**file_id_namespace** | Identifier namespace for this file string | Required if table is populated
-**file_local_id** | The ID of this file string | Required if table is populated
-**collection_id_namespace** |Identifier namespace for this collection string | Required if table is populated
-**collection_local_id** | The ID of this collection string | Required if table is populated
+**file_id_namespace** |Identifier namespace for this file  | Required if table is populated | If a row has this value, it must have a value for every column <br /><br />Value type is string | For each row this will be the value of `id_namespace` in [file.tsv](./TableInfo:-file.tsv) for the file in this collection. If your program has not implemented multiple id_namespaces, this will be exactly the same for all rows and in the `collection_id_namespace` column
+**file_local_id**|The ID of this file | Required if table is populated | If a row has this value, it must have a value for every column <br /><br />Value type is string |  For each row this will be the value of `local_id` in [file.tsv](./TableInfo:-file.tsv) for the file in this collection. If a collection has multiple files, it should have multiple *rows*. **Concatenating values in this column will invalidate your submission**
+**collection_id_namespace** | Identifier namespace for this collection | Required if table is populated | If a row has this value, it must have a value for every column<br /><br />Value type is string | For each row (each file), this will be the value of `id_namespace` in [collection.tsv](./TableInfo:-collection.tsv) for the collection this file was taken from. If your program has not implemented multiple id_namespaces, this will be exactly the same for all rows and in the `file_id_namespace` column
+**collection_local_id** | The ID of this collection string |  Required if table is populated | If a row has this value, it must have a value for every column<br /><br /> Value type is string | For each row (each file), this will be the value of `local_id` in [collection.tsv](./TableInfo:-collection.tsv) for the collection this file was taken from. If a file should be part of multiple collections, it should have multiple *rows*. **Concatenating values in this column will invalidate your submission**
