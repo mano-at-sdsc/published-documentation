@@ -1,6 +1,6 @@
 This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables. 
 
-The anatomy.tsv table should have as many rows as you have unique Uberon IDs in [biosample.tsv](./TableInfo:-biosample.tsv)
+The anatomy.tsv table should have as many rows as you have unique Uberon IDs in the `anatomy` column of [biosample.tsv](./TableInfo:-biosample.tsv)
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
