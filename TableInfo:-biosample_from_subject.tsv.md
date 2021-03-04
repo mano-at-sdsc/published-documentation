@@ -2,7 +2,7 @@ Association between a biosample and its source subject
 
 
 If fully filled, the biosample_from_subject table will contain one row for every `local_id` in [biosample.tsv](./TableInfo:-biosample.tsv), however this is not required.
-If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of biosamples.
+If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of biosamples/subjects. Not all subjects need biosamples, not all biosamples need subjects.
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
