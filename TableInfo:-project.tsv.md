@@ -1,5 +1,8 @@
 The project table will contain one row per project in your Program
 
+If you have more than one project, you must populate [project_in_project.tsv](./TableInfo:-project_in_project.tsv)
+
+
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
 **id_namespace** | ID of the identifier namespace corresponding to the top-level C2M2 metadataset containing this project| Required | Every row must have a value; Value type is string | id_namespace is the unique identifier for your program, or some subset of your program, that identifies it as your data. In the simplest case, your program would use the exact same value for the id_namespace column in every row for every table. More complex Programs may choose to use multiple namespaces. id_namespaces should all be listed in the [primary_dcc_contact table](./TableInfo:-primary_dcc_contact.tsv)
