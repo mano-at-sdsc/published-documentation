@@ -1,6 +1,6 @@
 The project table will contain one row per project in your Program
 
-If you have more than one project, you must populate [project_in_project.tsv](./TableInfo:-project_in_project.tsv)
+If you have more than one project, you must specify the top level project in the [primary_dcc_contact table](./TableInfo:-primary_dcc_contact.tsv) AND populate the [project_in_project table](./TableInfo:project_in_project) to show the relationships between projects
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
