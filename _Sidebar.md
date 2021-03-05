@@ -4,7 +4,7 @@
 - [Technical Documentation](https://docs.nih-cfde.org/)
 - Tutorials
   - [Onboarding](./Onboarding-to-the-CFDE-Portal-Submission-System)
-  - [Submitting datapackages](./Onboarding-to-the-CFDE-Portal-Submission-System)
+  - [Submitting datapackages](./How-to-submit-a-datapackage)
   - [Reviewing datapackages](./How-to-review-a-datapackage)
   - [Approving datapackages](./How-to-approve-your-datapackage)
 - C2M2 Table Guide
