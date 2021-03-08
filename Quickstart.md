@@ -19,7 +19,9 @@ A datapackage consists of 22 tab separated value (.tsv) files populated with int
 
 Five of the tables required by the C2M2 can be automatically generated from the other tables. Once you have created the other tables, run our [helper script](https://github.com/nih-cfde/c2m2/blob/master/draft-C2M2_external_CV_term_table_generator_script/build_term_tables.py) to create the anatomy, assay_type, data_type, file_format and ncbi_taxonomy tables. It will also create a copy of the JSON schema:
 
-`put command here`
+`python build_term_tables.py`
+
+See the full [build_term_tables](./build_term_tables) documentation for more information.
 
 ### cfde-submit
 
