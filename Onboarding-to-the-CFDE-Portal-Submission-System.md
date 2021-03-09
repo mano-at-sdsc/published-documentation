@@ -11,7 +11,18 @@ We’re still working out how we will administer roles long term in practice. Fo
 
 To do the onboarding, please have a PI or PM at your organization give us a list of people in your org who need Submission System access. For each person please list:
 
-- [their Globus display name](https://github.com/nih-cfde/security/blob/master/epic-1-groups/dcc-instructions.md)
+- [their Globus display name](#finding-your-globus-display-name)
 - what role(s) you want them to have
 
 Please submit your request to [the helpdesk](support@cfde.atlassian.net)
+
+
+## Finding your Globus Display Name
+
+1. Create a login at https://app.nih-cfde.org/ by clicking “Log In” button on the top left corner of the page.
+1. The “Log In” button will open a “Globus” pop-up window requiring you to login using existing credentials.
+1. Select your organization, or select to log in using Google or an ORCID ID 
+1. Use your relevant credentials to log in
+1. Successful processing of your login will give you access to the CFDE portal. You will now see your name displayed on the top right corner if logged in successfully.
+1. Click on the drop down button next to your name. Select “My profile” from the menu. This will open a pop-up window with some details about your profile.
+1. You will see your “Display Name” (Eg: xxxxxx@umaryland.edu) in the window. This is your “Globus display name”
