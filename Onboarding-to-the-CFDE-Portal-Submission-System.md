@@ -13,6 +13,8 @@ The system can only currently support *a single approver* per DCC.
 
 We’re still working out how we will administer roles long term in practice. For the moment, @jeremywalter is acting as admin on all of them until we’re sure the system is working.
 
+## Onboarding Process
+
 To do the onboarding, please have a PI or PM at your organization give us a list of people in your org who need Submission System access. For each person please list:
 
 - [their Globus display name](#finding-your-globus-display-name)
