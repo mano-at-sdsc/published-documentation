@@ -1,5 +1,3 @@
-Starting at “log in”, then going to the submitted datapackage page, looking at summary charts, exploring with browse data if desired, approve.
-
 1. Go to https://app.nih-cfde.org/ and click "Log In" (top right corner).
 2. Click your name and "My Profile" (top right corner). Check that under "Groups" it says you're an Approver for your DCC.
 3. Click on “Data Review” tab at top of page to open “Submitted Datapackage” page. 
