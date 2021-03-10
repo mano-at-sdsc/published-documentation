@@ -14,7 +14,7 @@ To do the onboarding, please have a PI or PM at your organization give us a list
 - [their Globus display name](#finding-your-globus-display-name)
 - what role(s) you want them to have
 
-Please submit your request to [the helpdesk](support@cfde.atlassian.net)
+Please email your request to [the helpdesk](support@cfde.atlassian.net)
 
 
 ## Finding your Globus Display Name
