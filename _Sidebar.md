@@ -1,6 +1,6 @@
 - [Home](.)
 - [Quickstart Guide](./Quickstart)
-- [Discussions & Help](https://github.com/nih-cfde/published-documentation/discussions)
+- [Bug Reporting & Help](https://github.com/nih-cfde/published-documentation/discussions)
 - [Technical Documentation](https://docs.nih-cfde.org/)
   - [Helper Script documentation](./build_term_tables)
 - Tutorials
