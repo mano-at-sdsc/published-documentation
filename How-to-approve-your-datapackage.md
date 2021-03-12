@@ -1,3 +1,5 @@
+Each DCC can only have one approved datapackage in each data release. If you approve multiple packages between data releases, only the most recently approved package will be used.
+
 1. Go to https://app.nih-cfde.org/ and click "Log In" (top right corner).
 2. Click your name and "My Profile" (top right corner). 
    - Check that under "Groups" it says you're an Approver for your DCC.
@@ -12,6 +14,8 @@
 8. To change the review status, in the "Actions" column, click on the pencil to edit. Scroll down to "DCC Approver Status" on the "Edit Submitted Datapackage" page. 
 9. Click the blue dropdown button and in the pop-up window, select the status option you want to switch to (i.e., "content approved" or "content approved but held").
 10. Back on the "Edited Submitted Datapackage" page, click "Save" (top right) to save the new status.
+
+
 
 
 
