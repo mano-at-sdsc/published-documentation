@@ -20,7 +20,7 @@ To do the onboarding, please have a PI or PM at your organization give us a list
 - [their Globus display name](#finding-your-globus-display-name)
 - what role(s) you want them to have
 
-Please email your request to [the helpdesk](support@cfde.atlassian.net)
+Please email your request to the helpdesk: support@cfde.atlassian.net
 
 When your request has been processed, each named will receive an invitation from Globus. *They must [accept this invitation](accepting-a-globus-invitation) to gain access.*
 
