@@ -16,4 +16,4 @@ Download the latest supported tables: [EDAM](https://docs.nih-cfde.org/en/latest
 
 ### 4. Use the command line to run script: `python build_term_tables.py`
 
-This script is still in beta, please contact us with any questions by emailing [the helpdesk](support@cfde.atlassian.net) or posting in [Discussions](https://github.com/nih-cfde/published-documentation/discussions)
+This script is still in beta, please contact us with any questions by emailing the helpdesk: support@cfde.atlassian.net or posting in [Discussions](https://github.com/nih-cfde/published-documentation/discussions)
