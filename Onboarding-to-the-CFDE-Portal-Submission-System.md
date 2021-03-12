@@ -11,7 +11,7 @@ If a user has one or more of the other roles, they get those privileges. Privile
 
 The system can only currently support *a single approver* per DCC.
 
-We’re still working out how we will administer roles long term in practice. For the moment, @jeremywalter is acting as admin on all of them until we’re sure the system is working.
+We’re still working out how we will administer roles long term in practice. For the moment, @jeremywalter is acting as admin on all role groups, and will manage adding and removing members from your roles at your request. In the future, we may enable each DCC to manage roles directly.
 
 ## Onboarding Process
 
