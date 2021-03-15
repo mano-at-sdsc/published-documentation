@@ -5,6 +5,7 @@
   - [Helper Script documentation](./build_term_tables)
 - Tutorials
   - [Onboarding to Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System)
+  - [Building a datapackage](./Building-a-datapackage)
   - [Submitting datapackages](./How-to-submit-a-datapackage)
   - [Reviewing datapackages](./How-to-review-a-datapackage)
   - [Rejecting datapackages](./How-to-reject-a-submission)
