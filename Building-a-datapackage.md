@@ -1,4 +1,4 @@
-There are many valid ways to build a datapackage depending on the underlying structure of your DCCs data. This page does not discuss modeling per se, and is instead designed to give a quick overview of how to finalize your datapackage. If you need help turning your internal data model into something compatible with the C2M2 please contact [the helpdesk](support@cfde.atlassian.net) directly for individualized support.
+There are many valid ways to build a datapackage depending on the underlying structure of your DCCs data. [See several examples here.](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#c2m2-examples) This page does not discuss modeling per se, and is instead designed to give a quick overview of how to finalize your datapackage. If you need help turning your internal data model into something compatible with the C2M2 please contact [the helpdesk](support@cfde.atlassian.net) directly for individualized support.
 
 
 1. Build the tables that your DCC has data for according to the [technical documentation](https://docs.nih-cfde.org/). Supplemental table information is also available [in this wiki](./C2M2-Table-Summary)
