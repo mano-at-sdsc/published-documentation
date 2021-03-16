@@ -22,7 +22,7 @@ Table (click for detailed information)|Requirement for Submission|Table Features
 [file_format.tsv](./TableInfo:-file_format.tsv)|Automatically created by submission software|
 [file_in_collection.tsv](./TableInfo:-file_in_collection.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [id_namespace.tsv](./TableInfo:-id_namespace.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have namespaces
-[ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Automatically created by submission software|
+[ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Currently needs to be made by submitter, but soon will be automatically created by submission software|
 [primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|Table must be submitted with all headers and with required fields populated|This table will have exactly one row 
 [project.tsv](./TableInfo:-project.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have Projects
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Table must be submitted with all headers. Fields are all optional.|If you have more than one project in the project table, then you must populate this table.
