@@ -22,7 +22,7 @@ To do the onboarding, please have a PI or PM at your organization give us a list
 
 Please email your request to the helpdesk: support@cfde.atlassian.net
 
-When your request has been processed, each named will receive an invitation from Globus. *They must [accept this invitation](accepting-a-globus-invitation) to gain access.*
+When your request has been processed, each named will receive an invitation from Globus. *They must click on the 'accept this invitation' link in the invitation to gain access.*
 
 ## Finding your Globus Display Name
 
