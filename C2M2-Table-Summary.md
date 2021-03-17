@@ -3,7 +3,8 @@
 - Table names must exactly match the list below (and JSON specification)
 - Table headers must exactly match the headers listed in that table (and JSON specification)
 - Table columns must appear in the order listed in that table (and JSON specification)
-- Tables must not contain empty rows between populated rows (trailing empty rows are fine)
+- Tables must not contain empty rows between populated rows
+- Tables must not have empty trailing rows
 
 Table (click for detailed information)|Requirement for Submission|Table Features
 -----------| -----------| -------------
