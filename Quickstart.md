@@ -48,7 +48,7 @@ Our submission system runs the [frictionless validator](https://pypi.org/project
 
 `pip install frictionless-py`
 
-`frictionless validate data/datapackage.json`
+`frictionless validate PATH/TO/JSON_FILE_IN_DIRECTORY`
 
 ## Checking your submission
 
