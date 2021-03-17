@@ -46,11 +46,11 @@ Note that only users who have been [onboarded as Data Submitters](./Onboarding-t
 
 Our submission system runs the [frictionless validator](https://pypi.org/project/frictionless/) on our servers as part of the submission process. You do *not* need to install or run frictionless to use our tool, however if you would like to use the validator locally, you can install it using these commands:
 
-`pip install frictionless-py`
+`pip install frictionless`
 
 if that command fails try:
 
-`pip install frictionless`
+`pip install frictionless-py`
 
 
 `frictionless validate PATH/TO/JSON_FILE_IN_DIRECTORY`
