@@ -1,8 +1,10 @@
 - [Home](.)
 - [Quickstart Guide](./Quickstart)
 - [Bug Reporting & Help](https://github.com/nih-cfde/published-documentation/discussions)
-- [Technical Documentation](https://docs.nih-cfde.org/)
-  - [Helper Script documentation](./build_term_tables)
+- [Technical C2M2 documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/)
+- [cfde-submit tool documentation(https://docs.nih-cfde.org/en/latest/cfde-submit/docs/)
+- [Helper Script documentation](./build_term_tables)
+
 - Tutorials
   - [Onboarding to Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System)
   - [Building a datapackage](./Building-a-datapackage)
