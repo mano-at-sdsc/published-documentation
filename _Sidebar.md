@@ -2,7 +2,7 @@
 - [Quickstart Guide](./Quickstart)
 - [Bug Reporting & Help](https://github.com/nih-cfde/published-documentation/discussions)
 - [Technical C2M2 documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/)
-- [cfde-submit tool documentation(https://docs.nih-cfde.org/en/latest/cfde-submit/docs/)
+- [cfde-submit tool documentation](https://docs.nih-cfde.org/en/latest/cfde-submit/docs/)
 - [Helper Script documentation](./build_term_tables)
 
 - Tutorials
