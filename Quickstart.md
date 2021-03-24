@@ -61,7 +61,7 @@ Once a datapackage has been submitted you can view it in the portal to see how i
 
 ## Approving your submission
 
-One person at your DCC will have the role of Data Approver. This person verifies that a datapackage is acceptable to the DCC and approves it for inclusion in the next data release. Although DCCs can have any number of Reviewable Submissions, each can have only a single Approved Submission for public release. See [How to approve your datapackage](./How-to-approve-your-datapackage). **A datapackage must be approved by a DCC approver before it becomes part of the public CFDE portal**
+One person at your DCC will have the role of Data Approver. This person verifies that a datapackage is acceptable to the DCC and approves it for inclusion in the next data release. Although DCCs can have any number of Reviewable Submissions, each can have only a single Approved Submission in each public release. See [How to approve your datapackage](./How-to-approve-your-datapackage). **A datapackage must be approved by a DCC approver before it becomes part of the public CFDE portal**
 
 ## Troubleshooting
 
