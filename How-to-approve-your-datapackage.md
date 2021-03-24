@@ -1,4 +1,4 @@
-Each DCC can only have one approved datapackage in each data release. If you approve multiple packages between data releases, only the most recently approved package will be used.
+Each DCC can only have one approved datapackage in each data release. If you approve multiple packages between data releases, only the most recently submitted and approved package will be used.
 
 1. Go to https://app.nih-cfde.org/ and click "Log In" (top right corner).
 2. Click your name and "My Profile" (top right corner). 
