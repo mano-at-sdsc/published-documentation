@@ -4,14 +4,16 @@ build_term_tables.py is a simple python script that builds the anatomy, assay_ty
 
 # Usage
 
-### 1. [Download the script](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/build_term_tables.py)
+### 1. [Download the script](https://github.com/nih-cfde/published-documentation/files/6213409/build_term_tables.py.zip)
 
-### 2. Download the latest supported tables: [EDAM](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/EDAM.version_1.25.tsv), [OBI](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/OBI.version_2020-12-16.obo), [Uberon](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/uberon.version_2019-06-27.obo)
+### 2. Unzip the script (its a single python file)
 
-### 3. Add script and tables to a directory
+### 3. Download the latest supported tables: [EDAM](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/EDAM.version_1.25.tsv), [OBI](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/OBI.version_2020-12-16.obo), [Uberon](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/external_CV_reference_files/uberon.version_2019-06-27.obo)
 
-### 4. Edit line 41 of the script to the location of your tables
+### 4. Add script and tables to a directory
 
-### 5. Use the command line to run script: `python build_term_tables.py`
+### 5. Edit line 41 of the script to the location of your tables
+
+### 6. Use the command line to run script: `python build_term_tables.py`
 
 This script is still in beta, please contact us with any questions by emailing the helpdesk: support@cfde.atlassian.net or posting in [Discussions](https://github.com/nih-cfde/published-documentation/discussions)
