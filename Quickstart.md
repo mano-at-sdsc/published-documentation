@@ -52,6 +52,7 @@ if that command fails try:
 
 `pip install frictionless-py`
 
+Once it's installed, run it by doing:
 
 `frictionless validate PATH/TO/JSON_FILE_IN_DIRECTORY`
 
