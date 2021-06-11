@@ -56,6 +56,10 @@ Once it's installed, run it by doing:
 
 `frictionless validate PATH/TO/JSON_FILE_IN_DIRECTORY`
 
+This command takes several minutes to run, and dumps the results into your terminal by default. To make a nicer file to review do:
+
+`frictionless validate PATH/TO/JSON_FILE_IN_DIRECTORY > report.txt`
+
 ## Checking your submission
 
 Once a datapackage has been submitted you can view it in the portal to see how it will appear for portal users. See [How to review your datapackage](./How-to-review-a-datapackage) for more details.
