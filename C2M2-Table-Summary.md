@@ -11,7 +11,7 @@ Table (click for detailed information)|Construction|Notes
 -----------| -----------| -------------
 [anatomy.tsv](./TableInfo:-anatomy.tsv)|Built by script|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Built by script|CV term table
-[biosample.tsv](./TableInfo:-biosample.tsv)|Prepared by submitter|This table will have as many rows as you have biosamples
+[biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|This table will have as many rows as you have biosamples
 [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Prepared by submitter|This table will have one row for each disease associated with each biosample
 [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|
 [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|This table will have one row for each biosample-collection pair in your project
