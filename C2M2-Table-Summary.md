@@ -30,7 +30,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Built by script|Y|CV term table
 [primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|Prepared by submitter|N|This table will have exactly one row
 [project.tsv](./TableInfo:-project.tsv)|Prepared by submitter|N|This table will have one row for each project
-[project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>| This table will have one row for each parent->child (project->subproject) relationship. <br/> <sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you must populate this table with all top-level projects listed as children of the DCC root project.
+[project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>| This table will have one row for each parent->child (project->subproject) relationship. <br/> --- <br/> <sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you must populate this table with all top-level projects listed as children of the DCC root project.
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have one row for each subject
 [subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each subject
 [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assignment of a subject as a member of a collection
