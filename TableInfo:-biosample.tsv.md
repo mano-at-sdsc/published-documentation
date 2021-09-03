@@ -1,4 +1,4 @@
-The `biosample.tsv` table will contain one row per biosample in your program.
+The `biosample.tsv` table will contain one row for each biosample in your program.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
