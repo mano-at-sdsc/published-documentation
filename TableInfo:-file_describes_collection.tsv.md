@@ -1,4 +1,4 @@
-Association between a file and a collection it describes
+Association between a file and a collection that it describes
 
 If populated, `file_describes_collection.tsv` will contain one row for every file that describes an entire collection defined by your program.
 
