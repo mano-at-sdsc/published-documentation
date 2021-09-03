@@ -5,6 +5,7 @@ The assay_type.tsv table will have as many rows as the number of unique OBI term
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**id** | An OBI CV term | Required | Value must be a valid OBI ID | [OBI lookup service](http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0000070) <br />Example valid OBI IDs: <br />`OBI:0000366`<br /> `OBI:0001177`<br /> `OBI:0002763` 
-**name** | A short, human-readable, machine-read-friendly label for this OBI term| Non-required: Any number of rows after the header can be filled | Value type is string
-**description** | A human-readable description of this OBI term |  Non-required: Any number of rows after the header can be filled | Value type is string
+**id** | An valid OBI term | Required | string | [OBI lookup service](http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0000070) <br/> Example: `OBI:0002763` 
+**name** | A short, human-readable, machine-read-friendly label for this OBI term| Required | string
+**description** | A human-readable description of this OBI term | Optional | string
+**synonyms** | A list of synonyms for this term as identified by the OBI metadata | Optional | JSON array of strings | provide empty JSON array `[]` if value is null
