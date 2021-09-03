@@ -1,10 +1,8 @@
-The collection table will have as many rows as you have Collections in your Program. 
+The C2M2 `collection` entity is a generalization of "dataset" -- a named grouping of files, biosamples and/or subjects.
 
-If you define collections, you must also assign them to projects in [project.tsv](./TableInfo:-project.tsv)
+Defining collections is optional. The `collection.tsv table will have one row for each collection you define for your program.
 
-This is where all of your Collections are created
 
-Collections are groupings of files, biosamples and/or subjects	
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
