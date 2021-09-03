@@ -10,7 +10,7 @@ Some examples:
 - If each biosample is simultaneously a member of three collections, this table will have three times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
 
 Usage note:
-- If a biosample is a member of collection `X`, and collection `X` is itself a subcollection of some other collection `Y` (as expressed in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table), then `biosample_in_collection.tsv` should only record the membership of the biosample in `X`: its (transitive) membership in `Y` will be automatically computed. In general, `biosample_in_collection.tsv` should record only the most specific (leaf-most) collection memberships: transitive membership of biosamples in ancestor/superset collections will be automatically inferred from the containment relationships already expressed in [collection_in_collection](./TableInfo:-collection_in_collection.tsv).
+- If a biosample is a member of collection `X`, and collection `X` is itself a subcollection of some other collection `Y` (as expressed in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table), then `biosample_in_collection.tsv` should only record the membership of the biosample in collection `X`: its (transitive) membership in collection `Y` will be automatically computed. In general, `biosample_in_collection.tsv` should record only the most specific (leaf-most) collection memberships: transitive membership of biosamples in ancestor/superset collections will be automatically inferred from the containment relationships already expressed in [collection_in_collection](./TableInfo:-collection_in_collection.tsv).
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
