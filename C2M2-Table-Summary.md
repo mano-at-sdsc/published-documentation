@@ -17,6 +17,7 @@ Table (click for detailed information)|Requirement for Submission|Table Features
 [collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [data_type.tsv](./TableInfo:-data_type.tsv)|Automatically created by submission software|
+[disease.tsv](./TableInfo:-disease.tsv)|Automatically created by submission software|
 [file](./TableInfo:-file.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have files
 [file_describes_biosample.tsv](./TableInfo:-file_describes_biosample.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [file_describes_subject.tsv](./TableInfo:-file_describes_subject.tsv)|Table must be submitted with all headers. Fields are all optional.|
