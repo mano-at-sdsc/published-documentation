@@ -1,34 +1,25 @@
 Assignment of a biosample as a member of a collection
 
-If populated, `biosample_in_collection.tsv` will contain one row for every biosample linked to a subject from which it was taken.
+If populated, `biosample_in_collection.tsv` will contain one row for every assignment of a biosample as a member of a collection.
 
 All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
 Some examples:   
-- If you don't have any biosamples associated with source subjects, this table should be left empty.
-- If you have exactly one biosample taken from each of your subjects, this table will have the same number of rows as [subject.tsv](./TableInfo:-subject.tsv)
-- If you have five biosamples taken from each subject, this table will have five times as many rows as [subject.tsv](./TableInfo:-subject.tsv)
+- If you don't have any biosamples contained in collections, this table should be left empty.
+- If each biosample is contained in exactly one collection, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+- If each biosample is simultaneously a member of three collections, this table will have three times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+
+Usage note:
+- If a biosample is a member of collection `X`, and collection `X` is itself a subcollection of some other collection `Y` (as expressed in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table), `biosample_in_collection.tsv` should only record the membership of the biosample in `X`: its (transitive) membership in `Y` will be automatically computed. In general, `biosample_in_collection.tsv` should record only the most specific (leaf-most) collection memberships: transitive membership of biosamples in ancestor/superset collections will be automatically inferred from the containment relationships already expressed in [collection_in_collection](./TableInfo:-collection_in_collection.tsv).
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **biosample_id_namespace** | Identifier namespace for this biosample  | Required | string | This will be the value of `id_namespace` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row. If your program has not registered multiple CFDE identifier namnespaces, this will be exactly the same value for all rows.
 **biosample_local_id** | The ID of this biosample | Required | string | This will be the value of `local_id` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row.
-**subject_id_namespace** | Identifier namespace for this subject | Required | string | This will be the value of `id_namespace` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
-**subject_local_id** | The ID of this subject | Required | string | This will be the value of `local_id` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row.
+**collection_id_namespace** | Identifier namespace for this collection | Required | string | This will be the value of `id_namespace` in the row in [collection.tsv](./TableInfo:-collection.tsv) corresponding to the collection referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**collection_local_id** | The ID of this collection | Required | string | This will be the value of `local_id` in the row in [collection.tsv](./TableInfo:-collection.tsv) corresponding to the collection referenced in this row.
 
-
-The biosample_in_collection table will contain one row per biosample-collection pair in your Program
-
-If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of collections/biosamples. Not all collections need biosamples, not all biosamples need to be part of a collection.
-
-
-Some examples:   
-- If you have exactly one collection, and want all your biosamples in that collection, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv), and the value for columns 3 and 4 will be the same for this entire table
-- If you have exactly one collection, and only want *a subset* your biosamples in that collection, you will have you will have an equal number of rows and biosamples in your subset, where the value for columns 3 and 4 are the same for the entire table
-- If each biosample is associated with exactly one collection, you will have an equal number of rows and biosamples
-- If a biosample should appear in two unrelated collections, that biosample will need two rows, where the first two columns are duplicated, and the last two columns specify the two different collections
-- If a biosample should appear in two or more collections that are defined as being nested in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table, it should only appear in one row, with the collection_id_namespace and collection_local_id for the most specific collection. It will inherit the parent collections automatically.
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
