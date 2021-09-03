@@ -7,6 +7,6 @@ The `id_namespace.tsv` table will contain one row per identifier namespace regis
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **id** | A globally unique ID representing this identifier namespace | Required | string | 
-**abbreviation** | A very short display label for this namespace | Optional | string | Should not exceed 10 characters; can only contain 0-9, a-z, A-Z and underscore ("`_`")
-**name** | A short, human-readable, machine-read-friendly label for this namespace | Required | string | Must be unique to each namespace
+**abbreviation** | A very short display label for this namespace | Optional | string | Should not exceed 10 characters; can only contain 0-9, a-z, A-Z and underscore ("`_`").
+**name** | A short, human-readable, machine-read-friendly label for this namespace | Required | string | Must be unique to each identifier namespace.
 **description** | A human-readable description of this namespace | Optional | string | 
