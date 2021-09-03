@@ -27,7 +27,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [file_in_collection.tsv](./TableInfo:-file_in_collection.tsv)|Prepared by submitter|Y|
 [id_namespace.tsv](./TableInfo:-id_namespace.tsv)|Prepared by submitter|N|This table will have as many rows as you have identifier namespaces
 [ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Built by script|Y|CV term table
-[primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|N|Prepared by submitter|This table will have exactly one row 
+[primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|Prepared by submitter|N|This table will have exactly one row 
 [project.tsv](./TableInfo:-project.tsv)|Prepared by submitter|N|This table will have as many rows as you have projects
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>|<sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you must populate this table
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have as many rows as you have subjects
