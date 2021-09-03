@@ -5,6 +5,7 @@ The anatomy.tsv table will have as many rows as the number of unique UBERON term
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
-**id** | An Uberon CV term | Required |  Value must be a valid UBERON ID | [UBERON lookup service](https://www.ebi.ac.uk/ols/ontologies/uberon) <br />Example valid UBERON IDs: <br />`UBERON:0001988`<br />`UBERON:0001052`<br /> `UBERON:0006956`
-**name** | A short, human-readable, machine-read-friendly label for this Uberon term| Non-required: Any number of rows after the header can be filled | Value type is string
-**description** | A human-readable description of this Uberon term |  Non-required: Any number of rows after the header can be filled | Value type is string
+**id** | An UBERON term | Required |  Value must be a valid UBERON term | [UBERON lookup service](https://www.ebi.ac.uk/ols/ontologies/uberon) <br />Example valid UBERON terms: <br />`UBERON:0001988`<br />`UBERON:0001052`<br /> `UBERON:0006956`
+**name** | A short, human-readable, machine-read-friendly label for this UBERON term| Required | Value type is string
+**description** | A human-readable description of this UBERON term |  Optional | Value type is string
+**synonyms** | A list of synonyms for this term as identified by the UBERON metadata | Optional | Value type is JSON array of strings | provide empty JSON array `[]` if value is null 
