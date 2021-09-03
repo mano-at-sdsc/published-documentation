@@ -1,6 +1,6 @@
 Association between a biosample and a Disease Ontology term
 
-If populated, `biosample_disease.tsv` will contain one row for every assignment of a Disease Ontology term to a biosample associated with that disease.
+If populated, `biosample_disease.tsv` will contain one row for every assignment of a Disease Ontology term to a biosample.
 
 All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
