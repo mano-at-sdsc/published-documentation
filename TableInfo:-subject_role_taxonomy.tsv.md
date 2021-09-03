@@ -1,3 +1,9 @@
+The `subject_role_taxonomy.tsv` table is used to attach taxonomic labels to subjects.
+
+Usage notes:
+
+* https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#taxonomy-and-the-subject-entity-the-subject_role_taxonomy-association-table
+
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
 **subject_id_namespace** | Identifier namespace for this subject string | Required if table is populated
