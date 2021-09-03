@@ -1,7 +1,16 @@
-The collection_in_collection table will contain one row per nested collection in your organization. 
+Each row in this table asserts "the second listed collection is a subcollection of the first listed collection."
 
-If you are nesting multiple collections within each other, you should only specify the most proximate relationships. e.g. if you have the collections `Dogs`, `Cats`, `Animals`, `LivingThings` your table should have a for each of: `Cats` in `Animals`, `Dogs` in `Animals`, and `Animals` in `LivingThings`. But you should _not_ additionally specify `Dogs` in `LivingThings`, as that relationship will be derived from the inherent tree-like structure.
+Usage notes:
+* Collections need only be explicitly linked to their _immediate parents_ via `collection_in_collection.tsv`. Transitive containment of each project (by more distant ancestor projects than its immediate parent project) will be automatically inferred.
 
+* Please see the [technical docs](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#association-tables-expressing-containment-relationships) for a complete discussion of the rules governing the use of this table.
+
+Field | Field Description | Required? | Field Value Type | Extra Info 
+------|-------------------|:-----------:|:-------------:|------------
+**superset_collection_id_namespace** | ID of the identifier namespace for the parent in this parent-child project pair | Required | string | This will be the value of `id_namespace` in the row in [project.tsv](./TableInfo:-project.tsv) corresponding to the _parent_ project referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**superset_collection_local_id** | The ID of the containing (parent) project in this parent-child project pair | Required | string | This will be the value of `local_id` in the row in [project.tsv](./TableInfo:-project.tsv) corresponding to the _parent_ project referenced in this row.
+**subset_collection_id_namespace** | ID of the identifier namespace for the child in this parent-child project pair | Required | string | This will be the value of `id_namespace` in the row in [project.tsv](./TableInfo:-project.tsv) corresponding to the _child_ project referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**subset_collection_local_id** | The ID of the contained (child) project in this parent-child project pair | Required | string | This will be the value of `local_id` in the row in [project.tsv](./TableInfo:-project.tsv) corresponding to the _child_ project referenced in this row.
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
