@@ -4,7 +4,7 @@ The disease.tsv table will have as many rows as the number of unique Disease Ont
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
-------|-------------------|-----------|-------------|------------
+------|-------------------|:-----------:|:-------------:|------------
 **id** | A valid Disease Ontology term | Required | string | [Disease Ontology lookup](https://disease-ontology.org/) <br /> Examples: `DOID:8778`, `DOID:0060249`
 **name** | A short, human-readable, machine-read-friendly label for this Disease Ontology term | Required | string
 **description** | A human-readable description of this Disease Ontology term |  Optional | string
