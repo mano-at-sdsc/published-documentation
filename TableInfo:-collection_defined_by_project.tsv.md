@@ -1,6 +1,8 @@
-If you have populated [collection.tsv](./TableInfo:-collection.tsv) you can assign those collections to project(s) 
+`collection_defined_by_project` optionally attaches a unique primary generating project to a C2M2 collection: this is meant to express the same relationship between a project and a collection as is (for example) expressed by the project foreign key in the [file.tsv](./TableInfo:-file.tsv) table: "collection `C` was defined under the auspices of project `P`," just as "file `F` was created by project `P`."
 
-collection_defined_by_project table will contain one row per collection in [collection.tsv](./TableInfo:-collection.tsv) 			
+Not every collection will have a well-defined project under which it was created, so **populating `collection_defined_by_project.tsv` association is optional.**
+
+The `collection_defined_by_project.tsv` table will contain _at most_ one row for each collection listed in [collection.tsv](./TableInfo:-collection.tsv) 			
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
