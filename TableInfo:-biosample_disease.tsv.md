@@ -1,1 +1,1 @@
-stuff
+Association between a biosample and a Disease Ontology term
