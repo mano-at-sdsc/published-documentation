@@ -1,7 +1,7 @@
-The biosample table will contain one row per biosample in your Program
+The `biosample.tsv` table will contain one row per biosample in your program.
 
-Field | Field Description | Required? |  Attributes | Extra Info 
-------|-------------------|-----------|-------------|------------
+Field | Field Description | Required? | Field Value Type | Extra Info 
+------|-------------------|:-----------:|:-------------:|------------
 **id_namespace** | A CFDE-cleared identifier representing the top-level data space containing this biosample [part 1 of 2-component composite primary key] | Required | string | `id_namespace` is a unique URI prefix pre-registered with CFDE and attached to your program (or a subset of your program) that identifies anything labeled with it as belonging to you. Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#c2m2-identifiers) for a full discussion of how this information is built and used.
 **local_id** | An identifier representing this biosample, unique within this id_namespace [part 2 of 2-component composite primary key] | Required |  The value in each row must be different for a given namespace <br /> <br /> Value type is string
 **project_id_namespace** | The id_namespace of the primary project within which this biosample was created [part 1 of 2-component composite foreign key] | Required| Value type is string | If you have not implemented multiple namespaces, this will be the same as id_namespace. 
