@@ -3,9 +3,9 @@ This table *must not* be manually created. Users should skip this (and all other
 The anatomy.tsv table will have as many rows as the number of unique UBERON terms appearing in the `anatomy` column of [biosample.tsv](./TableInfo:-biosample.tsv).
 
 
-Field | Field Description | Required? |  Type | Extra Info 
+Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|-----------|-------------|------------
-**id** | A valid UBERON term | Required |  Value type is string | [UBERON lookup service](https://www.ebi.ac.uk/ols/ontologies/uberon) <br />Example valid UBERON terms: <br />`UBERON:0001988`<br />`UBERON:0001052`<br /> `UBERON:0006956`
-**name** | A short, human-readable, machine-read-friendly label for this UBERON term| Required | Value type is string
-**description** | A human-readable description of this UBERON term |  Optional | Value type is string
-**synonyms** | A list of synonyms for this term as identified by the UBERON metadata | Optional | Value type is JSON array of strings | provide empty JSON array `[]` if value is null 
+**id** | A valid UBERON term | Required |  string | [UBERON lookup service](https://www.ebi.ac.uk/ols/ontologies/uberon) <br /> Example: `UBERON:0006956`
+**name** | A short, human-readable, machine-read-friendly label for this UBERON term| Required | string
+**description** | A human-readable description of this UBERON term |  Optional | string
+**synonyms** | A list of synonyms for this term as identified by the UBERON metadata | Optional | JSON array of strings | provide empty JSON array `[]` if value is null 
