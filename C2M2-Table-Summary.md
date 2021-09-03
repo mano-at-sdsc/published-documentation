@@ -33,4 +33,4 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have one row for each subject
 [subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each subject
 [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assigmment of a subject to a collection
-[subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)|Prepared by submitter|Y|This table will have one row for each role-based taxonomic assignment to a subject
+[subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)|Prepared by submitter|Y|This table will have one row for each taxon label attached to a subject
