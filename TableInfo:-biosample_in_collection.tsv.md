@@ -6,8 +6,8 @@ All fields are required: this table can be empty (header-row only), but any non-
 
 Some examples:   
 - If you don't have any biosamples contained in collections, this table should be left empty.
-- If each biosample is contained in exactly one collection, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv)
-- If each biosample is simultaneously a member of three collections, this table will have three times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+- If each biosample is contained in exactly one collection, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv).
+- If each biosample is simultaneously a member of three collections, this table will have three times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
 
 Usage note:
 - If a biosample is a member of collection `X`, and collection `X` is itself a subcollection of some other collection `Y` (as expressed in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table), `biosample_in_collection.tsv` should only record the membership of the biosample in `X`: its (transitive) membership in `Y` will be automatically computed. In general, `biosample_in_collection.tsv` should record only the most specific (leaf-most) collection memberships: transitive membership of biosamples in ancestor/superset collections will be automatically inferred from the containment relationships already expressed in [collection_in_collection](./TableInfo:-collection_in_collection.tsv).
