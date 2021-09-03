@@ -8,7 +8,7 @@ Some examples:
 - If you don't have any biosamples associated with diseases, this table should be left empty.
 - If you have exactly one disease associated with each biosample, this table will have as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
 - If you have five diseases associated with each biosample (an especially unhealthy cohort, it would seem), this table will have five times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
-- If some but not all of your biosamples are associated with one or more diseases, this table will contain one row for each disease assigned to each such biosample (and the resulting row count _will not correspond_ to the number of rows in [biosample.tsv](./TableInfo:-biosample.tsv)).
+- If some but not all of your biosamples are associated with one or more diseases, this table will contain one row for each disease assigned to each such biosample (and the resulting row count will not have any obvious relationship to the number of rows in [biosample.tsv](./TableInfo:-biosample.tsv), which is both expected and fine in such a case).
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
