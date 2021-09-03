@@ -1,6 +1,6 @@
 If populated, `file_describes_collection.tsv` will contain one row for every file that describes an entire collection defined by your program.
 
-All fields are required; this table can be empty (header-row only), but any non-header rows must have all fields populated
+All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
 Some examples:   
 - If you don't have any files that summarize entire collections, this table should be left empty.
