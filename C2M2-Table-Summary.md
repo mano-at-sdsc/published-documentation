@@ -1,5 +1,5 @@
 - All table files listed in this summary must be bundled together, along with the [C2M2 datapackage JSON Schema file](https://osf.io/vzgx9/), to create a valid C2M2 datapackage for submission to CFDE
-- Any empty (unused) tables should be submitted with only the (tab-separated) column header row filled in
+- Any empty (unused) table files should still be submitted, with only the (tab-separated) column-header row filled in
 - Table (TSV) filenames must exactly match those listed in the JSON Schema file (and in these docs)
 - Table column headers must exactly match those listed in the JSON Schema file (and in these docs)
 - Table columns must appear in the order given in the JSON Schema file (and in these docs)
