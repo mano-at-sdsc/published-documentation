@@ -17,7 +17,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assignmet of a biosample to a collection
 [collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have one row for each collection
 [collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|This table will have one row for each collection that was generated directly by a project listed in the [project.tsv](./TableInfo:-project.tsv) table
-[collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Prepared by submitter|Y|
+[collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each parent->child (i.e. collection->subcollection) relationship
 [data_type.tsv](./TableInfo:-data_type.tsv)|Built by script|Y|CV term table
 [disease.tsv](./TableInfo:-disease.tsv)|Built by script|Y|CV term table
 [file](./TableInfo:-file.tsv)|Prepared by submitter|Y|This table will have as many rows as you have files
@@ -29,7 +29,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Built by script|Y|CV term table
 [primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|Prepared by submitter|N|This table will have exactly one row 
 [project.tsv](./TableInfo:-project.tsv)|Prepared by submitter|N|This table will have as many rows as you have projects
-[project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>|<sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you must populate this table
+[project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>|<sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you must populate this table. It will have one row for each parent->child (i.e. project->subproject) relationship.
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have as many rows as you have subjects
 [subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each subject
 [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)|Prepared by submitter|Y|
