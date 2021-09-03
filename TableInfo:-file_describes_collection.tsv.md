@@ -1,11 +1,11 @@
-If fully filled, `file_describes_biosample.tsv` will contain one row for every combination of file and biosample in your program.
+If populated, `file_describes_collection.tsv` will contain one row for every file that describes an entire collection defined by your program.
 
-If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of files/biosamples.
+All fields are required; this table can be empty (header-row only), but any non-header rows must have all fields populated
 
 Some examples:   
-- If you have exactly one biosample in each file, this table will have the same number of rows as [file.tsv](./TableInfo:-file.tsv)
-- If you have two biosamples in every file, this table will have two rows for each file, each linking to a single biosample
-- If you have 3 files for each biosample, this table will have 3 rows for each biosample, each linking to a single file
+- If you don't have any files that summarize entire collections, this table should be left empty.
+- If you have exactly one file describing each of your collections, this table will have the same number of rows as [collection.tsv](./TableInfo:-collection.tsv)
+- If you have five files summarizing each collection, this table will have five times as many rows as [collection.tsv](./TableInfo:-collection.tsv)
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
