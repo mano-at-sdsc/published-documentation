@@ -1,4 +1,4 @@
-The primary_dcc_contact table should contain a **single row** of information about your point of contact 
+The `primary_dcc_contact.tsv` table must contain **exactly one row** describing a technical contact for this C2M2 datapackage. 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
