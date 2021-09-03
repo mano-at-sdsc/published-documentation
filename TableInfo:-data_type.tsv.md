@@ -1,6 +1,6 @@
-This table does *not* need to be manually created (but it can be). Users can build the rest of their data package and then use the CFDE Helper script to automatically build this table from the completed tables.
+This table *must not* be manually created. Users should skip this (and all other controlled vocabulary term tables) when preparing the rest of their datapackage's TSV files for submission. Once the other tables are built, users should then use the [CFDE term-table builder script](https://osf.io/bq6k9/) to automatically build this table (and the other term tables) from the information stored in the other already-completed table files.
 
-The data_type.tsv table should have as many rows as you have unique EDAM IDs in the `data_type` column of [file.tsv](./TableInfo:-file.tsv)
+The data_type.tsv table will have as many rows as the number of unique EDAM terms appearing in the `data_type` column of [file.tsv](./TableInfo:-file.tsv).
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
