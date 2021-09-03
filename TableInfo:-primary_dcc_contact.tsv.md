@@ -1,6 +1,6 @@
 The `primary_dcc_contact.tsv` table must contain **exactly one row** describing a technical contact for this C2M2 datapackage. 
 
-Field | Field Description | Required? | Field Value Type | Extra Info 
+Field | Field Description | Required? | Field&nbsp;Value&nbsp;Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **contact_email** | Email address of this contact | Required | A valid email address | 
 **contact_name** | Name of this contact | Required | string | The name of a person who can answer any questions CFDE staff have during submission processing
