@@ -16,8 +16,8 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|Y|
 [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each biosample-collection pair in your project
 [collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have as many rows as you have collections
-[collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Y|Prepared by submitter|
-[collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Y|Prepared by submitter|
+[collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|
+[collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Prepared by submitter|Y|
 [data_type.tsv](./TableInfo:-data_type.tsv)|Built by script|Y|CV term table
 [disease.tsv](./TableInfo:-disease.tsv)|Built by script|Y|CV term table
 [file](./TableInfo:-file.tsv)|Prepared by submitter|Y|This table will have as many rows as you have files
