@@ -1,6 +1,6 @@
-This table *must not* be manually created. Users should skip this (and all other controlled vocabulary term tables) when preparing the rest of their datapackage's TSV files for submission. Once the other tables are built, users should then use the [CFDE term-table builder script](https://osf.io/bq6k9/) to automatically build this table (and the other term tables) from the information stored in the already-completed table files.
+This table *must not* be manually created. Users should skip this (and all other controlled vocabulary term tables) when preparing the rest of their datapackage's TSV files for submission. Once the other tables are built, users should then use the [CFDE term-table builder script](https://osf.io/bq6k9/) to automatically build this table (and the other term tables) from the information stored in the other already-completed table files.
 
-The disease.tsv table should have as many rows as the number of unique Disease Ontology IDs appearing in either the [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv) or [subject_disease.tsv](./TableInfo:-subject_disease.tsv) association table files.
+The disease.tsv table will have as many rows as the number of unique Disease Ontology terms appearing in either the [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv) or [subject_disease.tsv](./TableInfo:-subject_disease.tsv) association table files.
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
