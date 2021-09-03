@@ -1,8 +1,8 @@
 A table listing identifier namespaces registered by the DCC submitting this C2M2 instance
 
-Each id_namespace is the unique identifier for your program, or some subset of your program, that identifies it as your data
+Each identifier namespace is a unique URI prefix, pre-registered with CFDE and attached to your program (or a subset of your program) that identifies anything labeled with it as belonging to you. Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#c2m2-identifiers) for a full discussion of how this information is built and used.
 
-The id_namespace table will contain one row per namespace in your Program			
+The `id_namespace.tsv` table will contain one row per identifier namespace registered with CFDE for your program.
 
 Field | Field Description | Required? |  Attributes | Extra Info 
 ------|-------------------|-----------|-------------|------------
