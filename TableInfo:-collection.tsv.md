@@ -1,6 +1,6 @@
 The C2M2 `collection` entity is a generalization of "dataset" -- a named grouping of files, biosamples and/or subjects.
 
-Defining collections is optional. The `collection.tsv table will have one row for each collection you define for your program.
+Defining collections is optional. The `collection.tsv` table will have one row for each collection you define for your program.
 
 Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#collection) for a complete treatment of how C2M2 collections are used.
 
