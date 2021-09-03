@@ -1,11 +1,24 @@
-If fully filled, `file_describes_biosample.tsv` will contain one row for every combination of file and biosample in your program.
+Association between a file and a biosample it describes
 
-If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of files/biosamples.
+If populated, `file_describes_biosample.tsv` will contain one row for every file linked to a biosample it describes.
+
+All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
 Some examples:   
-- If you have exactly one biosample in each file, this table will have the same number of rows as [file.tsv](./TableInfo:-file.tsv)
-- If you have two biosamples in every file, this table will have two rows for each file, each linking to a single biosample
-- If you have 3 files for each biosample, this table will have 3 rows for each biosample, each linking to a single file
+- If you don't have files that describe one or more particular individual biosamples, this table should be left empty.
+- If you have exactly one file describing or summarizing each biosample, this table will have the same number of rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+- If you have five files describing each biosample, this table will have five times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+- If you have one file describing each batch of five biosamples, this table will have one fifth as many rows as [biosample.tsv](./TableInfo:-biosample.tsv)
+
+
+Field | Field Description | Required? | Field Value Type | Extra Info 
+------|-------------------|:-----------:|:-------------:|------------
+**file_id_namespace** | Identifier namespace for this file | Required | string | This will be the value of `id_namespace` in the row in [file.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**subject_local_id** | The ID of this subject | Required | string | This will be the value of `local_id` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row.
+**biosample_id_namespace** | Identifier namespace for this biosample  | Required | string | This will be the value of `id_namespace` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row. If your program has not registered multiple CFDE identifier namnespaces, this will be exactly the same value for all rows.
+**biosample_local_id** | The ID of this biosample | Required | string | This will be the value of `local_id` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row.
+
+
 
 
 Field | Field Description | Required? |  Attributes | Extra Info 
