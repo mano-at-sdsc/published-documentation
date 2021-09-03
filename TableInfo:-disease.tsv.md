@@ -8,4 +8,4 @@ Field | Field Description | Required? |  Attributes | Extra Info
 **id** | A Disease Ontology term | Required | Value must be a valid Disease Ontology ID | [Disease Ontology lookup](https://disease-ontology.org/) <br /> Example valid Disease Ontology IDs: `DOID:8778`, `DOID:0060249`
 **name** | A short, human-readable, machine-read-friendly label for this Disease Ontology term | Required | Value type is string
 **description** | A human-readable description of this Disease Ontology term |  Optional | Value type is string
-**synonyms** | A list of synonyms for this term as identified by the Disease Ontology metadata | Optional (provide empty JSON array `[]` if null) | Value type is JSON array of strings
+**synonyms** | A list of synonyms for this term as identified by the Disease Ontology metadata | Optional | Value type is JSON array of strings | provide empty JSON array `[]` if value is null 
