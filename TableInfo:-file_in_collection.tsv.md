@@ -1,18 +1,21 @@
-The file_in_collection table will contain one row per file-collection pair in your Program
+Assignment of a file as a member of a collection
 
-If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of collections/files. Not all collections need files, not all files need to be part of a collection.
+If populated, `file_in_collection.tsv` will contain one row for every assignment of a file as a member of a collection.
 
+All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
 Some examples:   
-- If you have exactly one collection, and want all your files in that collection, this table will have the same number of rows as [file.tsv](./TableInfo:-file.tsv), and the value for columns 3 and 4 will be the same for this entire table
-- If you have exactly one collection, and only want *a subset* your files in that collection, you will have you will have an equal number of rows and files in your subset, where the value for columns 3 and 4 are the same for the entire table
-- If each file is associated with exactly one collection, you will have an equal number of rows and files
-- If a file should appear in two unrelated collections, that file will need two rows, where the first two columns are duplicated, and the last two columns specify the two different collections
-- If a file should appear in two or more collections that are defined as being nested in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table, it should only appear in one row, with the collection_id_namespace and collection_local_id for the most specific collection. It will inherit the parent collections automatically.
+- If you don't have any files contained in collections, this table should be left empty.
+- If each file is contained in exactly one collection, this table will have the same number of rows as [file.tsv](./TableInfo:-file.tsv).
+- If each file is simultaneously a member of three collections, this table will have three times as many rows as [file.tsv](./TableInfo:-file.tsv).
 
-Field | Field Description | Required? |  Attributes | Extra Info 
-------|-------------------|-----------|-------------|------------
-**file_id_namespace** |Identifier namespace for this file  | Required if table is populated | If a row has this value, it must have a value for every column <br /><br />Value type is string | For each row this will be the value of `id_namespace` in [file.tsv](./TableInfo:-file.tsv) for the file in this collection. If your program has not implemented multiple id_namespaces, this will be exactly the same for all rows and in the `collection_id_namespace` column
-**file_local_id**|The ID of this file | Required if table is populated | If a row has this value, it must have a value for every column <br /><br />Value type is string |  For each row this will be the value of `local_id` in [file.tsv](./TableInfo:-file.tsv) for the file in this collection. If a collection has multiple files, it should have multiple *rows*. **Concatenating values in this column will invalidate your submission**
-**collection_id_namespace** | Identifier namespace for this collection | Required if table is populated | If a row has this value, it must have a value for every column<br /><br />Value type is string | For each row (each file), this will be the value of `id_namespace` in [collection.tsv](./TableInfo:-collection.tsv) for the collection this file was taken from. If your program has not implemented multiple id_namespaces, this will be exactly the same for all rows and in the `file_id_namespace` column
-**collection_local_id** | The ID of this collection string |  Required if table is populated | If a row has this value, it must have a value for every column<br /><br /> Value type is string | For each row (each file), this will be the value of `local_id` in [collection.tsv](./TableInfo:-collection.tsv) for the collection this file was taken from. If a file should be part of multiple collections, it should have multiple *rows*. **Concatenating values in this column will invalidate your submission**
+Usage note:
+- If a file is a member of collection `X`, and collection `X` is itself a subcollection of some other collection `Y` (as expressed in the [collection_in_collection](./TableInfo:-collection_in_collection.tsv) table), then `file_in_collection.tsv` should only record the membership of the file in collection `X`: the file's (transitive) membership in collection `Y` will be automatically computed. In general, `file_in_collection.tsv` should record only the most specific (leaf-most) collection memberships: transitive membership of files in ancestor/superset collections will be automatically inferred from the containment relationships expressed in [collection_in_collection](./TableInfo:-collection_in_collection.tsv).
+
+
+Field | Field Description | Required? | Field Value Type | Extra Info 
+------|-------------------|:-----------:|:-------------:|------------
+**biosample_id_namespace** | Identifier namespace for this biosample  | Required | string | This will be the value of `id_namespace` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row. If your program has not registered multiple CFDE identifier namnespaces, this will be exactly the same value for all rows.
+**biosample_local_id** | The ID of this biosample | Required | string | This will be the value of `local_id` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row.
+**collection_id_namespace** | Identifier namespace for this collection | Required | string | This will be the value of `id_namespace` in the row in [collection.tsv](./TableInfo:-collection.tsv) corresponding to the collection referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**collection_local_id** | The ID of this collection | Required | string | This will be the value of `local_id` in the row in [collection.tsv](./TableInfo:-collection.tsv) corresponding to the collection referenced in this row.
