@@ -12,7 +12,7 @@ Table (click for detailed information)|Requirement for Submission|Table Features
 [anatomy.tsv](./TableInfo:-anatomy.tsv)|Automatically created by script|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Automatically created by script|CV term table
 [biosample.tsv](./TableInfo:-biosample.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have biosamples
-[biosample_disease.tsv](./TableInfo:-biosample_disease.tsv|Table must be submitted with all headers and with required fields populated|This table will have one row for each disease associated with each biosample.
+[biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Table must be submitted with all headers and with required fields populated|This table will have one row for each disease associated with each biosample.
 [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Table must be submitted with all headers. Fields are all optional.|The biosample_in_collection table will contain one row per biosample-collection pair in your project
 [collection.tsv](./TableInfo:-collection.tsv)|Table must be submitted with all headers. Fields are all optional.|This table will have as many rows as you have Collections
@@ -31,6 +31,6 @@ Table (click for detailed information)|Requirement for Submission|Table Features
 [project.tsv](./TableInfo:-project.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have Projects
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Table must be submitted with all headers. Fields are all optional.|If you have more than one project in the project table, then you must populate this table.
 [subject.tsv](./TableInfo:-subject.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have subjects
-[subject_disease.tsv](./TableInfo:-subject_disease.tsv|Table must be submitted with all headers and with required fields populated|This table will have one row for each disease associated with each subject.
+[subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Table must be submitted with all headers and with required fields populated|This table will have one row for each disease associated with each subject.
 [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)|Table must be submitted with all headers. Fields are all optional.|This table will have as many rows as you have subjects
