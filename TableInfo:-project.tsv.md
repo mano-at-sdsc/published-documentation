@@ -1,9 +1,8 @@
-The project table will contain one row per project in your Program
+The C2M2 `project` entity is a generic container for groups of files, biosamples and/or subjects that are part of the same research endeavor.
 
-If you have more than one project, you must specify the top level project in the [primary_dcc_contact table](./TableInfo:-primary_dcc_contact.tsv) AND populate the [project_in_project table](./TableInfo:project_in_project) to show the relationships between projects
+At least one project must be defined for each program. The `project.tsv` table will have one row for each project you define for your program.
 
-
-Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#project) for a complete treatment of how C2M2 projects are used.
+Please see the technical documentation for a complete treatment of [how C2M2 projects are used](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#project), paying special attention to both the section on the [project_in_project.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#association-tables-expressing-containment-relationships) (subproject containment) table and also the section describing the project foreign key requirement for the [primary_dcc_contact.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#the-primary_dcc_contact-table) table.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
