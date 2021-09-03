@@ -1,3 +1,5 @@
+Assignment of a biosample as a member of a collection
+
 The biosample_in_collection table will contain one row per biosample-collection pair in your Program
 
 If a row is filled, it must be filled for all columns, but there is no minimum number of rows that must be filled. You can choose any subset of collections/biosamples. Not all collections need biosamples, not all biosamples need to be part of a collection.
