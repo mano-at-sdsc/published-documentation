@@ -1,4 +1,4 @@
-Association between a file and a biosample it describes
+Association between a file and a biosample that it describes
 
 If populated, `file_describes_biosample.tsv` will contain one row for every file linked to a biosample that it describes.
 
