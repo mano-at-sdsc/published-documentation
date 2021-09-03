@@ -1,10 +1,10 @@
-- All tables in this summary must be submitted simultaneously (and with the [master C2M2_datapackage JSON file](https://osf.io/e5tc2/)) to create a valid datapackage
-- Unused tables should be submitted with only the header row populated
-- Table names must exactly match the list below (and JSON specification)
-- Table headers must exactly match the headers listed in that table (and JSON specification)
-- Table columns must appear in the order listed in that table (and JSON specification)
-- Tables must not contain empty rows between populated rows
-- Tables must not have empty trailing rows
+- All tables in this summary must be submitted simultaneously (and with the [master C2M2 datapackage JSON Schema file](https://osf.io/vzgx9/)) to create a valid datapackage
+- Empty (unused) tables should be submitted with only the header row filled in
+- Table (TSV) filenames must exactly match those listed below (and in the JSON Schema file)
+- Table column headers must exactly match those listed below (and in the JSON Schema file)
+- Table columns must appear in the order listed here (and in the JSON Schema file)
+- Table (TSV) files must not contain any empty rows or extra lines
+- Every TSV file should end with the final row of table data, terminated by a newline
 
 Table (click for detailed information)|Requirement for Submission|Table Features
 -----------| -----------| -------------
@@ -23,7 +23,7 @@ Table (click for detailed information)|Requirement for Submission|Table Features
 [file_format.tsv](./TableInfo:-file_format.tsv)|Automatically created by submission software|
 [file_in_collection.tsv](./TableInfo:-file_in_collection.tsv)|Table must be submitted with all headers. Fields are all optional.|
 [id_namespace.tsv](./TableInfo:-id_namespace.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have namespaces
-[ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Currently needs to be made by submitter, but soon will be automatically created by submission software|
+[ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Automatically created by submission software|
 [primary_dcc_contact.tsv](./TableInfo:-primary_dcc_contact.tsv)|Table must be submitted with all headers and with required fields populated|This table will have exactly one row 
 [project.tsv](./TableInfo:-project.tsv)|Table must be submitted with all headers and with required fields populated|This table will have as many rows as you have Projects
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Table must be submitted with all headers. Fields are all optional.|If you have more than one project in the project table, then you must populate this table.
