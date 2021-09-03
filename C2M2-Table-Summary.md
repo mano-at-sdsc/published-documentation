@@ -11,12 +11,12 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 -----------|:-----------:|:-------------:|-------------
 [anatomy.tsv](./TableInfo:-anatomy.tsv)|Built by script|Y|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Built by script|Y|CV term table
-[biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|Y|This table will have as many rows as you have biosamples
+[biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|Y|This table will have one row for each biosample
 [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each biosample
-[biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|Y|
-[biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each biosample-collection pair in your project
-[collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have as many rows as you have collections
-[collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|
+[biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|Y|This table will have one row for each attribution of a biosample to a subject
+[biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assignmet of a biosample to a collection
+[collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have one row for each collection
+[collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|This table will have one row for each collection that was generated directly by a project listed in the [project.tsv](./TableInfo:-project.tsv) table
 [collection_in_collection.tsv](./TableInfo:-collection_in_collection.tsv)|Prepared by submitter|Y|
 [data_type.tsv](./TableInfo:-data_type.tsv)|Built by script|Y|CV term table
 [disease.tsv](./TableInfo:-disease.tsv)|Built by script|Y|CV term table
