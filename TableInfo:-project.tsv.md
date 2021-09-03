@@ -3,6 +3,8 @@ The project table will contain one row per project in your Program
 If you have more than one project, you must specify the top level project in the [primary_dcc_contact table](./TableInfo:-primary_dcc_contact.tsv) AND populate the [project_in_project table](./TableInfo:project_in_project) to show the relationships between projects
 
 
+Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#project) for a complete treatment of how C2M2 projects are used.
+
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **id_namespace** | A CFDE-cleared identifier representing the top-level data space containing this project [part 1 of 2-component composite primary key] | Required | Value type is string | `id_namespace` is a unique URI prefix pre-registered with CFDE and attached to your program (or a subset of your program) that identifies anything labeled with it as belonging to you. Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#c2m2-identifiers) for a full discussion of how this information is built and used.
