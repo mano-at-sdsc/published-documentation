@@ -4,9 +4,13 @@ build_term_tables.py is a simple python script that builds the anatomy, assay_ty
 
 # Usage
 
-### 1. [Download the script and term tables [Last updated 9/7/21]](https://osf.io/bq6k9/) at OSF (select 'Download as zip'.) 
+### 1. [Download the script [Last updated 9/7/21]](https://osf.io/c67sp/) at OSF 
 
-### 2. Unzip the folder (its the script and supported tables)
+### 2. [Download the term tables [Last updated 9/7/21]](https://osf.io/bq6k9/files/) at OSF (select external_CV_reference_files and then 'Download as zip'.) 
+
+### 3. Unzip the external_CV_reference_files folder
+
+### 4. Put external_CV_reference_files and script into the same folder
 
 ### 3. Edit line 42 of the script to the location of your tables
 
