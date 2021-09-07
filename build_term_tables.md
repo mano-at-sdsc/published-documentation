@@ -8,7 +8,7 @@ build_term_tables.py is a simple python script that builds the anatomy, assay_ty
 
 ### 2. Unzip the folder (its the script and supported tables)
 
-### 3. Edit line 41 of the script to the location of your tables
+### 3. Edit line 42 of the script to the location of your tables
 
 ### 4. Use the command line to run script: `python build_term_tables.py`
 
