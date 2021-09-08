@@ -4,7 +4,7 @@
 
 # Usage
 
-### 0. First build your `file.tsv`, `biosample.tsv`, `biosample_disease.tsv`, `subject_disease.tsv`, and `subject_role_taxonomy.tsv` tables. (Some of these can be left empty (as header-only TSVs) if desired: see the [C2M2 table wiki](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for requirements.
+### 0. First build your `file.tsv`, `biosample.tsv`, `biosample_disease.tsv`, `subject_disease.tsv`, and `subject_role_taxonomy.tsv` tables. (Some of these can be left empty (as header-only TSVs) if desired: see the [C2M2 table wiki](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for requirements.)
 
 ### 1. [Download the script [Last updated 9/7/21]](https://osf.io/c67sp/) at OSF 
 
