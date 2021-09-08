@@ -8,7 +8,7 @@
 
 ### 1. [Download the script [Last updated 9/7/21]](https://osf.io/c67sp/) at OSF 
 
-### 2. [Download the CV reference files [Last updated 9/7/21]](https://osf.io/bq6k9/files/) from OSF (select external_CV_reference_files and then 'Download as zip'.) 
+### 2. [Download the CV reference files [Last updated 9/7/21]](https://osf.io/bq6k9/files/) at OSF (select external_CV_reference_files and then 'Download as zip'.) 
 
 ### 3. Unzip the external_CV_reference_files folder
 
