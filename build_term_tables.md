@@ -14,8 +14,8 @@
 
 ### 4. Put external_CV_reference_files and `build_term_tables.py` into the same folder
 
-### 3. Edit line 42 of the script to match the location of your `file.tsv`, `biosample.tsv`, (etc.) TSV files
+### 5. Edit line 42 of the script to match the location of your `file.tsv`, `biosample.tsv`, (etc.) TSV files
 
-### 4. Use the command line to run the script: `python build_term_tables.py`
+### 6. Use the command line to run the script: `python build_term_tables.py`
 
 This script is under active development: please contact us with any questions by emailing the helpdesk at support@cfde.atlassian.net or posting to [Discussions](https://github.com/nih-cfde/published-documentation/discussions)
