@@ -1,6 +1,6 @@
 # Overview
 
-`build_term_tables.py` is a Python script that builds C2M2 controlled-vocabulary term usage tables for anatomy, assay type, file data type, file format, disease and taxonomy metadata.
+`build_term_tables.py` is a Python script that builds C2M2 controlled-vocabulary (CV) term usage tables for anatomy, assay type, file data type, file format, disease and taxonomy metadata.
 
 # Usage
 
