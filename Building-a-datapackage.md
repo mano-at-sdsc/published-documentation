@@ -2,7 +2,7 @@ There are many valid ways to build a datapackage depending on the underlying str
 
 
 1. Build the tables that your DCC has data for according to the [technical documentation](https://docs.nih-cfde.org/). Supplemental table information is also available [in this wiki](./C2M2-Table-Summary)
-2. Download the [C2M2 JSON file from CFDE OSF space](https://osf.io/vzgx9/) and save in the same directory as your tables
+2. Download the [C2M2 JSON file from CFDE OSF space](https://osf.io/e5tc2/) and save in the same directory as your tables
 3. Follow [helper script instructions](https://github.com/nih-cfde/published-documentation/wiki/build_term_tables) to generate controlled vocabulary tables from your data.
 4. If you do not have 33 tables, [download blank headers for the missing tables here](https://osf.io/rdeks/files/) and save them to the same directory
 5. OPTIONAL: run the [frictionless validator script](./Quickstart#optional-frictionless)
