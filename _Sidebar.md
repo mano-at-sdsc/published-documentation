@@ -10,7 +10,7 @@
   - [Building a datapackage](./Building-a-datapackage)
   - [Submitting datapackages](./How-to-submit-a-datapackage)
   - [Reviewing datapackages](./How-to-review-a-datapackage)
-  - [Approve or Reject datapackages](./How-to-reject-a-submission)
+  - [Approve or Reject datapackages](./How-to-approve-or-reject-a-submission)
 - C2M2 Table Guide
   - [Table Summary](./C2M2-Table-Summary)
     - [anatomy.tsv](./TableInfo:-anatomy.tsv)
