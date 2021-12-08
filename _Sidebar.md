@@ -47,7 +47,11 @@
     - [subject_substance.tsv](./TableInfo:-subject_substance.tsv)
     - [substance.tsv](./TableInfo:-substance.tsv)
   - [Reference Tables](./Reference-Tables)
+    - [disease_association_type](./TableInfo:-disease_association_type.tsv)
+    - [phenotype_association_type](./TableInfo:-phenotype_association_type.tsv)
+    - [subject_ethnicity](./TableInfo:-subject_ethnicity.tsv)
     - [subject_granularity](./TableInfo:-subject_granularity.tsv)
+    - [subject_race](./TableInfo:-subject_race.tsv)
     - [subject_role](./TableInfo:-subject_role.tsv)
-
+    - [subject_sex](./TableInfo:-subject_sex.tsv)
 
