@@ -18,6 +18,7 @@
     - [biosample.tsv](./TableInfo:-biosample.tsv)
     - [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)
     - [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)
+    - [biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)
     - [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)
     - [biosample_substance.tsv](./TableInfo:-biosample_substance.tsv)
     - [collection.tsv](./TableInfo:-collection.tsv)
