@@ -1,6 +1,6 @@
-# Overview
+### # Overview
 
-`build_term_tables.py` is a Python script that builds C2M2 controlled-vocabulary (CV) term usage tables for anatomy, assay type, file data type, file format, disease and taxonomy metadata.
+`python prepare_C2M2_submission.py` (previously build_term_tables.py) is a Python script that builds C2M2 controlled-vocabulary (CV) term usage tables for anatomy, assay type, file data type, file format, disease and taxonomy metadata.
 
 # Usage
 
@@ -12,10 +12,10 @@
 
 ### 3. Unzip the external_CV_reference_files folder
 
-### 4. Put external_CV_reference_files and `build_term_tables.py` into the same folder
+### 4. Put external_CV_reference_files and `prepare_C2M2_submission.py` into the same folder
 
 ### 5. Edit line 42 of the script to match the location of your `file.tsv`, `biosample.tsv`, (etc.) TSV files
 
-### 6. Use the command line to run the script: `python build_term_tables.py`
+### 6. Use the command line to run the script: `python prepare_C2M2_submission.py`
 
 This script is under active development: please contact us with any questions by emailing the helpdesk at support@cfde.atlassian.net or posting to [Discussions](https://github.com/nih-cfde/published-documentation/discussions)
