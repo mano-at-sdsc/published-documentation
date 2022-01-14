@@ -3,7 +3,7 @@ Each DCC can only have one approved datapackage in each data release. If you app
 1. Go to https://app.nih-cfde.org/ and click "Log In" (top right corner).
 2. Click your name and "My Profile" (top right corner). 
    - Check that under "Groups" it says you're an Approver for your DCC.
-3. Click on “Data Review” tab at top of page to open “Submitted Datapackage” page. 
+3. Click on “List all submissions” under the "For submitters" tab at top of page. 
 4. You should see a table with 3 columns: Actions, Submission, and Status Summary. 
    - The status of your data package is in the "Status Summary" column by "Ingest Status".
 5. To view a table with the number of items submitted during data ingestion (number of files, biosamples, subjects, etc.), click on the document icon in the "Actions" column to "View Details". 
