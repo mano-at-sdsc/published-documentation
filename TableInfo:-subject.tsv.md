@@ -11,4 +11,4 @@ Field | Field Description | Required? | Field Value Type | Extra Info
 **granularity** | A CFDE CV term categorizing this subject by multiplicity | Required | enum of strings | [Table of allowed values](https://osf.io/gpf3d/)
 **sex** | The sex of this subject | optional | string enum of strings | [Table of allowed values](https://osf.io/wepsz/)
 **ethnicity** | The ethnicity of this subject | optional | string enum of strings | [Table of allowed values](https://osf.io/5gy7r/)
-**age_at_enrollment** | The age in years (with a fixed precision of two digits past the decimal point) of this subject when they were first enrolled in the primary project within which they were studied | optional |  number |
+**age_at_enrollment** | The age in years (with a fixed precision of two digits past the decimal point) of this subject when they were first enrolled in the primary project within which they were studied | Optional |  number |
