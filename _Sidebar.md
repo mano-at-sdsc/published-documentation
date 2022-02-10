@@ -2,8 +2,8 @@
 - [Quickstart Guide](./Quickstart)
 - [Bug Reporting & Help](https://github.com/nih-cfde/published-documentation/discussions)
 - [Technical C2M2 documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/)
+- [C2M2 submission prep script wiki](./submission-prep-script)
 - [cfde-submit tool documentation](https://docs.nih-cfde.org/en/latest/cfde-submit/docs/)
-- [C2M2 Submission Prep Script wiki](./submission-prep-script)
 
 - Tutorials
   - [Onboarding to Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System)
