@@ -3,7 +3,7 @@
 - Table (TSV) filenames must exactly match those listed in the JSON Schema file (and in these docs)
 - Table column headers must exactly match those listed in the JSON Schema file (and in these docs)
 - Table columns must appear in the order given in the JSON Schema file (and in these docs)
-- All tables marked "CV term table" in the list below must be built using the [CFDE term-table builder script](https://osf.io/bq6k9/)
+- All tables marked "CV term table" in the list below must be built using the CFDE submission prep script ([wiki](./submission-prep-script); [code](https://osf.io/bq6k9/))
 - Table (TSV) files must not contain any empty rows or extra lines
 - Every TSV file should end with the final row of table data, terminated by a newline
 
