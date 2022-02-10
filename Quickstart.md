@@ -2,27 +2,27 @@
 
 ## Joining the CFDE
 
-The Data Coordination Center (DCC) for each participating Common Fund Program needs to onboard with the CFDE-CC before we can accept submissions. You do not need to be funded by a CFDE award to participate, however awards are available (see [Engagement Opportunities for Common Fund Programs](https://www.nih-cfde.org/engagement_page/engagement-opportunities-for-common-fund-programs/) for more information). To begin your onboarding, please email the helpdesk: support@cfde.atlassian.net.
+The Data Coordination Center (DCC) for each participating Common Fund Program needs to onboard with the CFDE-CC before we can accept submissions. You do not need to be funded by a CFDE award to participate, but awards are available (see [Engagement Opportunities for Common Fund Programs](https://www.nih-cfde.org/engagement_page/engagement-opportunities-for-common-fund-programs/) for more information). To begin your onboarding, please email the helpdesk: support@cfde.atlassian.net.
 
 ## Onboarding to the CFDE portal
 
-Each person who needs to submit data on behalf of your DCC, see submitted your DCCs pending data submission, or approve a pending data submission will need to be [onboarded to the Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System). 
+Anyone who will need permissions to submit, review and/or approve data on behalf of your DCC will need to be [onboarded to the Submission System](./Onboarding-to-the-CFDE-Portal-Submission-System). 
 
-## Creating your datapackage
+## Creating your C2M2 datapackage
 
-A datapackage consists of tab separated value (.tsv) files populated with interrelated metadata about the data assets owned by your DCC. Assuming you fill all of the tables, a datapackage submission will make your data searchable by concepts such as anatomical location, species, assay type, and other similar terms that are useful to researchers who are looking for new datasets. This datapackage can be created at several arbitrary levels of complexity, as many of the columns and several entire tables can be left empty and still produce a valid package. However, search-ability in the CFDE portal is highly correlated with model completeness, and as such the Coordination Center recommends making your datapackage as complete as possible. The full specification for all tables is available in the [technical documentation](https://docs.nih-cfde.org/). See the [C2M2-Table-Summary](./C2M2-Table-Summary) for an high level description the tables.
+A C2M2 datapackage consists of a group of tab-separated value (.tsv) files populated with interrelated metadata about the data assets owned by your DCC. Submitting a datapackage to the CFDE portal system can make your data searchable by concepts like anatomical location, species, assay type, disease, phenotype, chemical substance and other terms relevant to biomedical researchers looking for new datasets. This datapackage can be created with arbitrary levels of complexity: many of the columns and several entire tables can be left empty and still produce a valid package; selection depends on what each DCC wants to express about their own sets of research data. Findability of research data in the CFDE portal will correlate with datapackage completeness, so once a DCC has identified a relevant selection of model components, it is best to make datapackages as rich as possible within those selected components. The full specification for all tables is available in the [technical documentation](https://docs.nih-cfde.org/). See the [C2M2-Table-Summary](./C2M2-Table-Summary) for a high-level description.
 
 <img src="https://github.com/nih-cfde/published-documentation/blob/stable/docs/images/datapackageflow.png" width="700">
 
 ## Installing the tools
 
-### Helper script
+### C2M2 Submission prep script
 
-Controlled vocabulary tables required by the C2M2 should be automatically generated from the other tables. Once you have created the other tables, run our [helper script](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_external_CV_term_table_generator_script/build_term_tables.py) to create the anatomy, assay_type, data_type, file_format, ncbi_taxonomy and disease tables:
+The controlled vocabulary (CV) term tables required for C2M2 submissions will be automatically generated from term usage collected from the other tables. Once you have created all other (non-CV) tables, run our [submission prep script](https://osf.io/bq6k9/) to automatically build the anatomy.tsv, analysis_type.tsv, assay_type.tsv, data_type.tsv, file_format.tsv, ncbi_taxonomy.tsv, compound.tsv, substance.tsv, phenotype.tsv, gene.tsv and disease.tsv tables to be included with your submission:
 
-`python build_term_tables.py`
+`python prepare_c2m2_submission.py`
 
-See the full [build_term_tables](./build_term_tables) documentation for more information.
+See the full [submission prep script](./build_term_tables) documentation for more information.
 
 ### cfde-submit
 
