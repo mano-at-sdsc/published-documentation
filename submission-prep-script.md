@@ -1,22 +1,22 @@
 ### # Overview
 
-`python prepare_C2M2_submission.py` (previously build_term_tables.py) is a Python script that automatically builds controlled-vocabulary (CV) term usage tables for C2M2 datapackage preparation, as well as performing a variety of pre-submission integrity checks.
+`python prepare_C2M2_submission.py` (previously `build_term_tables.py`) is a Python script that automatically builds controlled-vocabulary (CV) term usage tables for C2M2 datapackage preparation, as well as performing some pre-submission data integrity checks.
 
-The following files are built automatically by this script and should not be hand-created or edited.
+The following files are built automatically by this script and should not be hand-created or edited; submit them along with the other required TSVs as part of your datapackage.
 
-* analysis_type.tsv
-* anatomy.tsv
-* assay_type.tsv
-* compound.tsv
-* data_type.tsv
-* disease.tsv
-* file_format.tsv
-* gene.tsv
-* ncbi_taxonomy.tsv
-* phenotype.tsv
-* phenotype_disease.tsv
-* phenotype_gene.tsv
-* substance.tsv
+* `analysis_type.tsv`
+* `anatomy.tsv`
+* `assay_type.tsv`
+* `compound.tsv`
+* `data_type.tsv`
+* `disease.tsv`
+* `file_format.tsv`
+* `gene.tsv`
+* `ncbi_taxonomy.tsv`
+* `phenotype.tsv`
+* `phenotype_disease.tsv`
+* `phenotype_gene.tsv`
+* `substance.tsv`
 
 The following pre-submission validation checks are currently performed:
 
