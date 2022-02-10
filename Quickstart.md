@@ -22,7 +22,7 @@ The controlled vocabulary (CV) term tables required for C2M2 submissions will be
 
 `python prepare_c2m2_submission.py`
 
-See the full [submission prep script](./build_term_tables) documentation for more information.
+See the full [submission prep script](./submission-prep-script) documentation for more information.
 
 ### cfde-submit
 
