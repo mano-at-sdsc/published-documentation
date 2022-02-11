@@ -36,6 +36,9 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [gene.tsv](./TableInfo:-gene.tsv)|Built by script|Y|CV term table
 [id_namespace.tsv](./TableInfo:-id_namespace.tsv)|Prepared by submitter|N|This table will have one row for each C2M2 identifier namespace registered with CFDE
 [ncbi_taxonomy.tsv](./TableInfo:-ncbi_taxonomy.tsv)|Built by script|Y|CV term table
+[phenotype.tsv](./TableInfo:-phenotype.tsv)|Built by script|Y|CV term table
+[phenotype_disease.tsv](./TableInfo:-phenotype_disease.tsv)|Built by script|Y|Each row in this table is equivalent to the statement "phenotype X is known to be associated with disease Y", for one particular (phenotype X, disease Y) pair; contents are autoloaded from HPO by the submission prep script, which will add relevant rows for each phenotype term used elsewhere in the submission datapackage
+[phenotype_gene.tsv](./TableInfo:-phenotype_gene.tsv)|Built by script|Y|Each row in this table is equivalent to the statement "phenotype X is known to be associated with gene Y", for one particular (phenotype X, gene Y) pair; contents are autoloaded from HPO by the submission prep script, which will add relevant rows for each phenotype term and each gene term used elsewhere in the submission datapackage
 [project.tsv](./TableInfo:-project.tsv)|Prepared by submitter|N|This table will have one row for each project
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>| This table will have one row for each parent->child (project->subproject) relationship. <br/> --- <br/> <sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you _must_ populate this table with all of your program's top-level projects, listed as children of your program's root project.
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have one row for each subject
