@@ -1,20 +1,13 @@
-THIS PAGE IS MID-EDIT
+This table *must not* be manually created. Users should skip this, and all other tables marked "Built by script" in [this summary](./C2M2-Table-Summary), preparing only the rest of their datapackage's TSV files (those marked "Prepared by submitter") for submission. Once the "Prepared by submitter" tables are ready, users should then use the [C2M2 submission prep script](https://osf.io/bq6k9/) to automatically generate this table (and the other "Built by script" tables) using the information in the "Prepared by submitter" tables.
 
-Association between a biosample and a Disease Ontology term
+Each row in this table is equivalent to the statement "phenotype X is known to be associated with gene Y", for one particular (phenotype X, gene Y) pair; contents are autoloaded from HPO by the submission prep script, which adds two sets of records (with any redundancies collapsed):
 
-If populated, `biosample_disease.tsv` will contain one row for every assignment of a Disease Ontology term to a biosample.
+* one row for every gene term associated with every phenotype term used in [collection_phenotype.tsv](./TableInfo:-collection_phenotype.tsv) or [subject_phenotype.tsv](./TableInfo:-subject_phenotype.tsv)
+* one row for every phenotype term associated with every gene term appearing in [biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)
 
-All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
-
-Some examples:   
-- If you don't have any biosamples associated with diseases, this table should be left empty.
-- If you have exactly one disease associated with each biosample, this table will have as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
-- If you have five diseases associated with each biosample (an especially unhealthy cohort, it would seem), this table will have five times as many rows as [biosample.tsv](./TableInfo:-biosample.tsv).
-- If some but not all of your biosamples are associated with one or more diseases, this table will contain one row for each disease assigned to each such biosample (and the resulting row count will not have any obvious relationship to the number of rows in [biosample.tsv](./TableInfo:-biosample.tsv), which is both expected and fine in such a case).
-
+All associations expressed in this table have been predetermined by the curators of the Human Phenotype Ontology: the associations included in `phenotype_gene.tsv` for a given submission will be those that contain terms from either of the two ontologies in submitter-prepared tables.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**biosample_id_namespace** | Identifier namespace for this biosample  | Required | string | This will be the value of `id_namespace` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
-**biosample_local_id** | The ID of this biosample | Required | string | This will be the value of `local_id` in the row in [biosample.tsv](./TableInfo:-biosample.tsv) corresponding to the biosample referenced in this row.
+**phenotype** | A valid Human Phenotype Ontology term | Required | string | [Human Phenotype Ontology lookup](https://hpo.jax.org/app/) <br /> Examples: `HP:0000349`, `HP:0012425`
 **disease** | A valid Disease Ontology term | Required | string | [Disease Ontology lookup](https://disease-ontology.org/) <br /> Examples: `DOID:8778`, `DOID:0060249`
