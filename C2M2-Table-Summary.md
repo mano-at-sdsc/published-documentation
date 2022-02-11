@@ -13,11 +13,11 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [analysis_type.tsv](./TableInfo:-analysis_type.tsv)|Built by script|Y|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Built by script|Y|CV term table
 [biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|Y|This table will have one row for each biosample
-[biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each biosample
+[biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Prepared by submitter|Y|For biosamples with disease metadata, this table will have one row for each disease associated with each biosample, along with a field distinguishing "exemplar of disease" from "disease specifically ruled out"
 [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|Y|This table will have one row for each attribution of a biosample to a subject
-[biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)|Prepared by submitter|Y|This table will have one row for each assignment of a gene as related to a biosample
+[biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)|Prepared by submitter|Y|For each biosample with a small group of associated genes (e.g. knockdown targets), this table will have one row for each association of a gene with a biosample
 [biosample_in_collection.tsv](./TableInfo:-biosample_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assignment of a biosample as a member of a collection
-[biosample_substance.tsv](./TableInfo:-biosample_substance.tsv)|Prepared by submitter|Y|This table will have one row for each assignment of a substance as related to a biosample
+[biosample_substance.tsv](./TableInfo:-biosample_substance.tsv)|Prepared by submitter|Y|For biosamples with substance metadata, this table will have one row for each association of a substance with a biosample
 [collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have one row for each collection
 [collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|This table will have one row for each collection that was generated directly by a project listed in the [project.tsv](./TableInfo:-project.tsv) table
 [collection_disease.tsv](./TableInfo:-collection_disease.tsv)|Prepared by submitter|Y|Each row in this table is equivalent to the statement "the contents of collection X directly relate to the study of disease Y", for one particular (collection X, disease Y) pair
@@ -42,9 +42,10 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [project.tsv](./TableInfo:-project.tsv)|Prepared by submitter|N|This table will have one row for each project
 [project_in_project.tsv](./TableInfo:-project_in_project.tsv)|Prepared by submitter|Y<sup>*</sup>| This table will have one row for each parent->child (project->subproject) relationship. <br/> --- <br/> <sup>*</sup>If you have more than one project in your [project.tsv](./TableInfo:-project.tsv) table, then you _must_ populate this table with all of your program's top-level projects, listed as children of your program's root project.
 [subject.tsv](./TableInfo:-subject.tsv)|Prepared by submitter|Y|This table will have one row for each subject
-[subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Prepared by submitter|Y|This table will have one row for each disease associated with each subject
+[subject_disease.tsv](./TableInfo:-subject_disease.tsv)|Prepared by submitter|Y|For subjects with disease metadata, this table will have one row for each disease associated with each subject, along with a field distinguishing "disease detected" from "disease specifically ruled out"
 [subject_in_collection.tsv](./TableInfo:-subject_in_collection.tsv)|Prepared by submitter|Y|This table will have one row for each assignment of a subject as a member of a collection
+[subject_phenotype.tsv](./TableInfo:-subject_phenotype.tsv)|Prepared by submitter|Y|For every subject with phenotype metadata, this table will have one row for each phenotype associated with each subject, along with a field distinguishing "exemplar of phenotype" from "phenotype specifically ruled out"
 [subject_race.tsv](./TableInfo:-subject_race.tsv)|Prepared by submitter|Y|This table will have one row for each subject with a race assertion
 [subject_role_taxonomy.tsv](./TableInfo:-subject_role_taxonomy.tsv)|Prepared by submitter|Y|This table will have one row for each taxon assigned to a subject
-[subject_substance.tsv](./TableInfo:-subject_substance.tsv)|Prepared by submitter|Y|This table will have one row for each substance associated with each subject
+[subject_substance.tsv](./TableInfo:-subject_substance.tsv)|Prepared by submitter|Y|For subjects with substance metadata, this table will have one row for each substance associated with each subject
 [substance.tsv](./TableInfo:-substance.tsv)|Built by script|Y|CV term table
