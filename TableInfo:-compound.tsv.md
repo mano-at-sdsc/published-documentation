@@ -1,6 +1,6 @@
-This table *must not* be manually created. Users should skip this (and all other controlled vocabulary term tables) when preparing the rest of their datapackage's TSV files for submission. Once the other tables are built, users should then use the [CFDE term-table builder script](https://osf.io/bq6k9/) to automatically build this table (and the other term tables) from the information stored in the other already-completed table files.
+This table *must not* be manually created. Users should skip this, and all other tables marked "Built by script" in [this summary](./C2M2-Table-Summary), preparing only the rest of their datapackage's TSV files (those marked "Prepared by submitter") for submission. Once the "Prepared by submitter" tables are ready, users should then use the [C2M2 submission prep script](https://osf.io/bq6k9/) to automatically generate this table (and the other "Built by script" tables) using the information in the "Prepared by submitter" tables.
 
-The compound.tsv table will have as many rows as the number of unique PubChem terms appearing in the [substance.tsv](./TableInfo:-substance.tsv).
+The compound.tsv table will have at most as many rows as the number of unique PubChem terms appearing in the [substance.tsv](./TableInfo:-substance.tsv) table (fewer rows, if multiple substances map to the same compound).
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
