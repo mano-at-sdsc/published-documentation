@@ -1,6 +1,9 @@
-WAIT FOR IT
+This table *must not* be manually created. Users should skip this, and all other tables marked "Built by script" in [this summary](./C2M2-Table-Summary), preparing only the rest of their datapackage's TSV files (those marked "Prepared by submitter") for submission. Once the "Prepared by submitter" tables are ready, users should then use the [C2M2 submission prep script](https://osf.io/bq6k9/) to automatically generate this table (and the other "Built by script" tables) using the information in the "Prepared by submitter" tables.
 
-Each row in this table is equivalent to the statement "phenotype X is known to be associated with disease Y", for one particular (phenotype X, disease Y) pair; contents are autoloaded from HPO by the submission prep script, which will add relevant rows for every phenotype term and every disease term used in submitter-prepared tables
+The phenotype_disease.tsv table will have as many rows as the total number of Disease Ontology terms associated (by the HPO curators) with all of the Human Phenotype Ontology terms appearing in [collection_phenotype.tsv](./TableInfo:-collection_phenotype.tsv) or [subject_phenotype.tsv](./TableInfo:-subject_phenotype.tsv).
+
+Each row in this table is equivalent to the statement "phenotype X is known to be associated with disease Y", for one particular (phenotype X, disease Y) pair; contents are autoloaded from HPO by the submission prep script, which adds relevant rows for every disease term associated with any phenotype term used in submitter-prepared tables
+
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
