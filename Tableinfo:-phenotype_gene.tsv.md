@@ -5,9 +5,9 @@ Each row in this table is equivalent to the statement "phenotype X is known to b
 * one row for every gene term associated with every phenotype term used in [collection_phenotype.tsv](./TableInfo:-collection_phenotype.tsv) or [subject_phenotype.tsv](./TableInfo:-subject_phenotype.tsv)
 * one row for every phenotype term associated with every gene term appearing in [biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)
 
-All associations expressed in this table have been predetermined by the curators of the Human Phenotype Ontology: the associations included in `phenotype_gene.tsv` for a given submission will be those that contain terms from either of the two ontologies in submitter-prepared tables.
+All associations expressed in this table have been predetermined by the curators of the Human Phenotype Ontology: the associations included in `phenotype_gene.tsv` for a given submission will be those that contain terms from either of the two ontologies (HPO, Ensembl) in submitter-prepared tables.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **phenotype** | A valid Human Phenotype Ontology term | Required | string | [Human Phenotype Ontology lookup](https://hpo.jax.org/app/) <br /> Examples: `HP:0000349`, `HP:0012425`
-**disease** | A valid Disease Ontology term | Required | string | [Disease Ontology lookup](https://disease-ontology.org/) <br /> Examples: `DOID:8778`, `DOID:0060249`
+**gene** | An Ensembl gene ID | Required |  string |  Example: `ENSG00000010404`
