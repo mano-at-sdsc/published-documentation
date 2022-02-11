@@ -5,7 +5,7 @@ Each row in this table is equivalent to the statement "phenotype X is known to b
 * one row for every disease term associated with every phenotype term used in [collection_phenotype.tsv](./TableInfo:-collection_phenotype.tsv) or [subject_phenotype.tsv](./TableInfo:-subject_phenotype.tsv)
 * one row for every phenotype term associated with every disease term appearing in [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv), [collection_disease.tsv](./TableInfo:-collection_disease.tsv) or [subject_disease.tsv](./TableInfo:-subject_disease.tsv)
 
-All associations expressed in this table been predetermined by the curators of the Human Phenotype Ontology.
+All associations expressed in this table been predetermined by the curators of the Human Phenotype Ontology: the associations included in `phenotype_disease.tsv` for a given submission will be those that contain terms from either of the two ontologies in submitter-prepared tables.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
