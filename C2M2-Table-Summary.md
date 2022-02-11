@@ -27,7 +27,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [data_type.tsv](./TableInfo:-data_type.tsv)|Built by script|Y|CV term table
 [dcc.tsv (formerly `primary_dcc_contact.tsv`](./TableInfo:-dcc.tsv)|Prepared by submitter|N|This table will have exactly one row
 [disease.tsv](./TableInfo:-disease.tsv)|Built by script|Y|CV term table
-[file](./TableInfo:-file.tsv)|Prepared by submitter|Y|This table will have one row for each file
+[file.tsv](./TableInfo:-file.tsv)|Prepared by submitter|Y|This table will have one row for each file
 [file_describes_biosample.tsv](./TableInfo:-file_describes_biosample.tsv)|Prepared by submitter|Y|This table will have one row for each association of a biosample with a describing file
 [file_describes_collection.tsv](./TableInfo:-file_describes_collection.tsv)|Prepared by submitter|Y|This table will have one row for each association of a collection with a describing file
 [file_describes_subject.tsv](./TableInfo:-file_describes_subject.tsv)|Prepared by submitter|Y|This table will have one row for each association of a subject with a describing file
