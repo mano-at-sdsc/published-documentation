@@ -5,7 +5,7 @@ The phenotype.tsv table will have as many rows as the number of unique Human Phe
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**id** | A valid Disease Ontology term | Required | string | [Disease Ontology lookup](https://disease-ontology.org/) <br /> Examples: `DOID:8778`, `DOID:0060249`
-**name** | A short, human-readable, machine-read-friendly label for this Disease Ontology term | Required | string
-**description** | A human-readable description of this Disease Ontology term |  Optional | string
-**synonyms** | A list of synonyms for this term as identified by the Disease Ontology metadata | Optional | JSON array of strings | provide empty JSON array `[]` if value is null 
+**id** | A valid Human Phenotype Ontology term | Required | string | [Human Phenotype Ontology lookup](https://hpo.jax.org/app/) <br /> Examples: `HP:0000349`, `HP:0012425`
+**name** | A short, human-readable, machine-read-friendly label for this Human Phenotype Ontology term | Required | string
+**description** | A human-readable description of this Human Phenotype Ontology term |  Optional | string
+**synonyms** | A list of synonyms for this term as identified by the Human Phenotype Ontology metadata | Optional | JSON array of strings | provide empty JSON array `[]` if value is null 
