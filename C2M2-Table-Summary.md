@@ -1,11 +1,11 @@
 - All table files listed in this summary must be bundled together, along with the [C2M2 datapackage JSON Schema file](https://osf.io/vzgx9/), to create a valid C2M2 datapackage for submission to CFDE
-- TSV files for any empty (unused) tables should still be submitted, with only the (tab-separated) column-header row filled in
+- TSV files for any empty (unused) tables must still be submitted, with only the (tab-separated) column-header row filled in
 - Table (TSV) filenames must exactly match those listed in the JSON Schema file (and in these docs)
 - Table column headers must exactly match those listed in the JSON Schema file (and in these docs)
 - Table columns must appear in the order given in the JSON Schema file (and in these docs)
 - All tables marked "CV term table" in the list below must be built using the CFDE submission prep script ([wiki](./submission-prep-script); [code](https://osf.io/bq6k9/))
 - Table (TSV) files must not contain any empty rows or extra lines
-- Every TSV file should end with the final row of table data, terminated by a newline
+- Every TSV file must end with the final row of table data, terminated by a newline
 
 Table (click for detailed information)|Construction|Can be empty?|Notes
 -----------|:-----------:|:-------------:|-------------
