@@ -1,8 +1,8 @@
 The C2M2 `project` entity is a generic container for groups of files, biosamples and/or subjects that are part of the same research endeavor.
 
-At least one project must be defined for each program. The `project.tsv` table will have one row for each project you define for your program.
+At least one project must be defined for each ID namespace. (If your DCC only has one ID namespace registered with CFDE, then this required top-level project will represent the entirety of your DCC's data. If you've partitioned your resources into multiple namespaces, each one will need its own top-level project.) The `project.tsv` table will have one row for each project you define.
 
-Please see the technical documentation for a complete treatment of [how C2M2 projects are used](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#project), paying special attention to both the section on the [project_in_project.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#association-tables-expressing-containment-relationships) (subproject containment) table and also the section describing the project foreign key requirement for the [primary_dcc_contact.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#the-primary_dcc_contact-table) table.
+Please see the technical documentation for a complete treatment of [how C2M2 projects are used](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#project), paying special attention to both the section on the [project_in_project.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#association-tables-expressing-containment-relationships) (subproject containment) table and also the section describing the project foreign key requirement for the [dcc.tsv](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#the-primary_dcc_contact-table) table.
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
