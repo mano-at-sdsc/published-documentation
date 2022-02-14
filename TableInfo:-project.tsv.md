@@ -2,6 +2,7 @@ The C2M2 `project` entity is a generic container for groups of files, biosamples
 
 At least one project must be defined as the root (top-level project) for each ID namespace registered with CFDE. The `project.tsv` table will have one row for each project you define. Subprojects can be assigned using the [project_in_project.tsv](./TableInfo:-project_in_project.tsv) table.
 
+
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
 **id_namespace** | A CFDE-cleared identifier representing the top-level data space containing this project [part 1 of 2-component composite primary key] | Required | string | `id_namespace` is a unique URI prefix pre-registered with CFDE and attached to your program (or a subset of your program) that identifies anything labeled with it as belonging to you. Please see the [technical documentation](https://docs.nih-cfde.org/en/latest/c2m2/draft-C2M2_specification/#c2m2-identifiers) for a full discussion of how this information is built and used.
