@@ -1,6 +1,6 @@
 The C2M2 `project` entity is a generic container for groups of files, biosamples and/or subjects that are part of the same research endeavor.
 
-At least one project must be defined as the root (top-level project) for each ID namespace registered with CFDE. The `project.tsv` table will have one row for each project you define. Subprojects can be assigned using the [project_in_project.tsv](./TableInfo:-project_in_project.tsv) table.
+At least one project must be defined as the root (top-level project) for each submitting Program, representing the Program itself. The `project.tsv` table will have one row for each project you define. Subprojects can be assigned using the [project_in_project.tsv](./TableInfo:-project_in_project.tsv) table.
 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
