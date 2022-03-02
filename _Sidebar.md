@@ -29,7 +29,7 @@
     - [collection_phenotype.tsv](./TableInfo:-collection_phenotype.tsv)
     - [compound.tsv](./TableInfo:-compound.tsv)
     - [data_type.tsv](./TableInfo:-data_type.tsv)
-    - [dcc.tsv (formerly `primary_dcc_contact.tsv`](./TableInfo:-dcc.tsv)
+    - [dcc.tsv (formerly `primary_dcc_contact.tsv`](./TableInfo:-dcc.tsv))
     - [disease.tsv](./TableInfo:-disease.tsv)
     - [file.tsv](./TableInfo:-file.tsv)
     - [file_describes_biosample.tsv](./TableInfo:-file_describes_biosample.tsv)
