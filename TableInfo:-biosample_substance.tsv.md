@@ -1,6 +1,6 @@
 Association between a biosample and a substance of interest
 
-If populated, `biosample_substance.tsv` will contain one row for every biosample linked to a PubChem substance experimentally associated it. This field is meant to be used for clinical cases such as toxins, and drugs, as well as bench trials of chemicals on tissue samples, and any other use cases that tie a small number of substances to a biosample. It should not be used to describe genes, proteins or their products. Genes should be tied to biosamples using [biosample_gene.tsv](./TableInfo:-biosample_gene.tsv). Proteins are currently not supported.
+If populated, `biosample_substance.tsv` will contain one row for every biosample linked to a PubChem substance experimentally associated it. This field is meant to be used for biosample studies analyzing toxins or drugs; bench trials of chemicals on tissue samples; and any other use cases that tie a small number of substances to a biosample.
 
 All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
