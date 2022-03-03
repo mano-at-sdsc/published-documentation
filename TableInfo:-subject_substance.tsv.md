@@ -1,6 +1,6 @@
 Association between a subject and a substance of interest
 
-If populated, `subject_substance.tsv` will contain one row for every subject linked to a PubChem substance experimentally associated it. This field is meant to be used for clinical cases such as toxins, and drugs, as well as bench trials of chemicals on tissue samples, and any other use cases that tie a small number of substances to a subject. It should not be used to describe genes, proteins or their products. Genes should be tied to biosamples, not subject, and use [subject_gene.tsv](./TableInfo:-subject_gene.tsv). Proteins are currently not supported.
+If populated, `subject_substance.tsv` will contain one row for every subject linked to a PubChem substance experimentally associated with it. This field is meant to be used for clinical cases such as toxins, drugs, and any other use cases that tie a small number of substances to a subject.
 
 All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
