@@ -1,6 +1,6 @@
 Association between a biosample and a gene of interest
 
-If populated, `biosample_gene.tsv` will contain one row for every biosample linked to an Ensembl gene especially relevant to it. This field is meant to be used for cases such as knockouts, knockins, genetic disease or other use cases that tie a small number of genes to a biosample. It should not be used to enumerate all genes tied to an object, for e.g. you should not annotate every gene to a sample simply because a biosample expresses every gene. 
+If populated, `biosample_gene.tsv` will contain one row for every biosample linked to an Ensembl gene especially relevant to it. This field is meant to be used for cases such as knockouts, knockins, genetic diseases or other use cases that tie a small number of genes to a biosample. It should not be used to enumerate all genes tied to an object: don't (for example) explicitly link each gene (of thousands) that happens to be expressed in a biosample: the gene associations here should be those that are specific and directly relevant to the study being performed.
 
 All fields are required: this table can be empty (header-row only), but any non-header rows must leave no fields blank.
 
