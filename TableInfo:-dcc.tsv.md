@@ -1,4 +1,4 @@
-The `dcc.tsv` (formerly `primary_dcc_contact.tsv`) table must contain **exactly one row** describing a technical contact for this C2M2 datapackage. 
+The `dcc.tsv` (formerly `primary_dcc_contact.tsv`) table must contain **exactly one row** describing a technical contact for this C2M2 datapackage. This table's `project` foreign key (the last two fields) should refer to the artificial top-level entry in the `project` table that represents the DCC's total C2M2 submission (see [`project.tsv`](./TableInfo:-project.tsv)).
 
 Field | Field Description | Required? | Field&nbsp;Value&nbsp;Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
