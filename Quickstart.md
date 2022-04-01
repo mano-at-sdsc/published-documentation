@@ -18,7 +18,7 @@ A C2M2 datapackage consists of a group of tab-separated value (.tsv) files popul
 
 ### C2M2 Submission prep script
 
-The controlled vocabulary (CV) term tables required for C2M2 submissions will be automatically generated from term usage collected from the other tables. Once you have created all other (non-CV) tables, run our submission prep script ([wiki page](./submission-prep-script); [code](https://osf.io/bq6k9/)) to automatically build the anatomy.tsv, analysis_type.tsv, assay_type.tsv, data_type.tsv, file_format.tsv, ncbi_taxonomy.tsv, compound.tsv, substance.tsv, phenotype.tsv, gene.tsv and disease.tsv tables to be included with your submission:
+The controlled vocabulary (CV) term tables required for C2M2 submissions will be automatically generated from term usage collected from the other tables. Once you have created all other (non-CV) tables, run our submission prep script ([wiki page](./submission-prep-script); [code](https://osf.io/bq6k9/)) to automatically build the anatomy.tsv, analysis_type.tsv, assay_type.tsv, data_type.tsv, file_format.tsv, ncbi_taxonomy.tsv, compound.tsv, substance.tsv, phenotype.tsv, gene.tsv, disease.tsv, phenotype_gene.tsv, and phenotype_disease.tsv tables to be included with your submission:
 
 `python prepare_c2m2_submission.py`
 
