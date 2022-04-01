@@ -2,7 +2,7 @@ This table *must not* be manually created. Users should skip this, and all other
 
 Each row in this table is equivalent to the statement "protein X is known to be associated with gene Y", for one particular (protein X, gene Y) pair; contents are autoloaded from HPO by the submission prep script, which adds two sets of records (with any redundancies collapsed):
 
-* one row for every gene term associated with every protein term used in [collection_protein.tsv](./TableInfo:-collection_protein.tsv) or [subject_protein.tsv](./TableInfo:-subject_protein.tsv)
+* one row for every gene term associated with every protein term used in [collection_protein.tsv](./TableInfo:-collection_protein.tsv) 
 * one row for every protein term associated with every gene term appearing in [biosample_gene.tsv](./TableInfo:-biosample_gene.tsv)
 
 All associations expressed in this table have been predetermined by the curators of the Human protein Ontology: the associations included in `protein_gene.tsv` for a given submission will be those that contain terms from either of the two ontologies (HPO, Ensembl) in submitter-prepared tables.
