@@ -4,6 +4,7 @@ This wiki is a companion to the detailed [technical documentation](https://docs.
 - Use the sidebar to navigate wiki pages
 - Ask questions or search common errors in [Discussions](https://github.com/nih-cfde/published-documentation/discussions) 
 - Get started on your submission with our [QuickStart](./Quickstart)
+- Need more help? Email the [Helpdesk](mailto:support@cfde.atlassian.net)
 
 # What is the C2M2?
 
