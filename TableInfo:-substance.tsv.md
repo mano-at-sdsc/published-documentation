@@ -6,7 +6,7 @@ The substance.tsv table will have as many rows as the number of unique PubChem s
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**id** | A PubChem substance ID (SID) | Required |  string | Example: `SID:5381226`
+**id** | A PubChem substance ID (SID) | Required |  string | Example: `5381226`
 **name** | A short, human-readable, machine-read-friendly label for this PubChem SID| Required | string
 **description** | A human-readable description of this PubChem SID |  Optional | string
 **synonyms** | A list of synonyms for this PubChem SID | Optional | array of strings
