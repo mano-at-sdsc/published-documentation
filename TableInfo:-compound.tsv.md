@@ -5,7 +5,7 @@ The compound.tsv table will have at most as many rows as the number of unique Pu
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**id** | A PubChem substance ID (SID) | Required |  string | Example: `SID:5381226`
+**id** | A GlyTouCan ID or a PubChem compound ID (CID) | Required |  string | 
 **name** | A short, human-readable, machine-read-friendly label for this PubChem CID| Required | string
 **description** | A human-readable description of this PubChem CID |  Optional | string
 **synonyms** | A list of synonyms for this PubChem CID | Optional | JSON array of strings | provide empty JSON array `[]` if value is null 
