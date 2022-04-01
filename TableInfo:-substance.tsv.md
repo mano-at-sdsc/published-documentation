@@ -10,5 +10,5 @@ Field | Field Description | Required? | Field Value Type | Extra Info
 **name** | A short, human-readable, machine-read-friendly label for this PubChem SID| Required | string
 **description** | A human-readable description of this PubChem SID |  Optional | string
 **synonyms** | A list of synonyms for this PubChem SID | Optional | array of strings
-**compound**| The (unique) PubChem compound ID (CID) associated with this PubChem SID| Required | string
+**compound**| The (unique) PubChem compound ID (CID) associated with this PubChem SID| Required | string | Example: `4534`
 
