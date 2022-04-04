@@ -5,7 +5,7 @@ The protein.tsv table will have as many rows as the number of unique UniProt ter
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**id** | A UniProt Knowledgebase (UniProtKB) protein accession (AC) | Required |  string |  Example: `Q1RAX0`
+**id** | A UniProt Knowledgebase (UniProtKB) protein accession (AC) | Required |  string |  Example: `Q6GZX4`
 **name** | The UniProt entry name (formerly "ID") of this protein | Required | string | Example: `001R_FRG3G`
 **description** | A description of this protein |  Optional | string
 **synonyms** | A list of alternate names for this protein | Optional | array
