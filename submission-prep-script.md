@@ -1,4 +1,4 @@
-### # Overview
+### Overview
 
 `python prepare_C2M2_submission.py` (previously `build_term_tables.py`) is a Python script that automatically builds controlled-vocabulary (CV) term usage tables for C2M2 datapackage preparation, as well as performing some pre-submission data integrity checks.
 
