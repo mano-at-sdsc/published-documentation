@@ -34,7 +34,7 @@ To install the tool:
 
 `pip3 install cfde-submit`
 
-To use the tool, give it the path to the directory containing all 22 tables plus the [required JSON schema file](https://osf.io/c63aw/):
+To use the tool, give it the path to the directory containing all TSV files plus the [required JSON schema file](https://osf.io/c63aw/):
 
 `cfde-submit run PATH/TO/DIRECTORY`
 
