@@ -1,3 +1,5 @@
+ Crosscut Metadata Model (C2M2) Common Vocabulary (CV) Tables
+
 - All table files listed in this summary must be bundled together, along with the [C2M2 datapackage JSON Schema file](https://osf.io/vzgx9/), to create a valid C2M2 datapackage for submission to CFDE
 - TSV files for any empty (unused) tables must still be submitted, with only the (tab-separated) column-header row filled in
 - Table (TSV) filenames must exactly match those listed in the JSON Schema file (and in these docs)
