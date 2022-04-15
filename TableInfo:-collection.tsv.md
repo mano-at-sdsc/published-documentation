@@ -13,4 +13,4 @@ Field | Field Description | Required? | Field Value Type | Extra Info
 **abbreviation** | A very short display label for this collection | Optional | string | Should not exceed 10 characters; can only contain 0-9, a-z, A-Z and underscore ("`_`").
 **name** | A short, human-readable, machine-read-friendly label for this collection | Optional | string | If specified, must be unique to each collection.
 **description** | A human-readable description of this collection | Optional | string | 
-**has_time_series_data** | Does this collection contain time-series data? | Optional | string | allowed values: [true\|false\|null]:<br>&nbsp;<br>true == yes, contains time-series data<br>&nbsp;<br>false == no, doesn't contain time-series data<br>&nbsp;<br>null == no info provided
+**has_time_series_data** | Does this collection contain time-series data? | Optional | string | **allowed values: true, false, null**:<br>&nbsp;<br>true == yes, contains time-series data<br>&nbsp;<br>false == no, doesn't contain time-series data<br>&nbsp;<br>null == no info provided
