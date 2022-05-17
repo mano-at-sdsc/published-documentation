@@ -11,6 +11,7 @@
   - [Submitting datapackages](./How-to-submit-a-datapackage)
   - [Reviewing datapackages](./How-to-review-a-datapackage)
   - [Approve or Reject datapackages](./How-to-approve-or-reject-a-submission)
+  - [Offboarding from Submission System](./Offboarding-from-the-CFDE-Portal-Submission-System)
 - C2M2 Table Guide
   - [Table Summary](./C2M2-Table-Summary)
     - [analysis_type.tsv](./TableInfo:-analysis_type.tsv)
