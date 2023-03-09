@@ -27,9 +27,9 @@ The following pre-submission validation checks are currently performed:
 
 0. First build your `file.tsv`, `biosample.tsv`, `biosample_disease.tsv`, `biosample_gene.tsv`, `biosample_substance.tsv`, `subject_disease.tsv`, `subject_phenotype.tsv`, `subject_role_taxonomy.tsv`, `subject_substance.tsv`, and `collection_disease.tsv` tables. (Some of these can be left empty (as header-only TSVs) if desired: see the [C2M2 table wiki](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for requirements.)
 
-1. [Download the script [Last updated 2 Feb 2022]](https://osf.io/c67sp/) at OSF 
+1. [Download the script [Last updated 8 Mar 2023]](https://osf.io/c67sp/) at OSF 
 
-2. [Download the CV reference files [Last updated 2 Feb 2022]](https://osf.io/bq6k9/files/) at OSF (select external_CV_reference_files and then 'Download as zip'.) 
+2. [Download the CV reference files [Last updated 8 Mar 2023]](https://osf.io/bq6k9/files/) at OSF (select external_CV_reference_files and then 'Download as zip'.) 
 
 3. Unzip the external_CV_reference_files folder
 
