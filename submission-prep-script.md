@@ -35,7 +35,7 @@ The following pre-submission validation checks are currently performed:
 
 4. Put external_CV_reference_files and `prepare_C2M2_submission.py` into the same folder
 
-5. Create a subdirectory containing your pre-built `file.tsv`, `biosample.tsv`, etc., then edit line 42 of `prepare_C2M2_submission.py` to match.
+5. Create a subdirectory containing your pre-built `file.tsv`, `biosample.tsv`, etc., then edit line 44 of `prepare_C2M2_submission.py` to match.
 
 6. Use the command line to run the script: `python prepare_C2M2_submission.py`
 
