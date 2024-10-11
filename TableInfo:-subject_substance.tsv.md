@@ -12,6 +12,6 @@ Some examples:
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**subject_id_namespace** | Identifier namespace for this subject  | Required | string | This will be the value of `id_namespace` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
-**subject_local_id** | The ID of this subject | Required | string | This will be the value of `local_id` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row.
-**substance** | A PubChem substance ID (SID) describing this substance | Required | string | This must be a valid PubChem ID <br/> Example: `5381226`
+**subject_id_namespace** | Identifier namespace for this subject [part 1 of 3-component composite primary key] | Required | string | This will be the value of `id_namespace` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row. If your program has not registered multiple CFDE identifier namespaces, this will be exactly the same value for all rows.
+**subject_local_id** | The ID of this subject [part 2 of 3-component composite primary key] | Required | string | This will be the value of `local_id` in the row in [subject.tsv](./TableInfo:-subject.tsv) corresponding to the subject referenced in this row.
+**substance** | A PubChem substance ID (SID) describing this substance [part 3 of 3-component composite primary key] | Required | string | This must be a valid PubChem ID <br/> Example: `5381226`

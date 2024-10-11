@@ -8,5 +8,5 @@ All associations expressed in this table have been predetermined by the UniProt 
 
 Field | Field Description | Required? | Field Value Type | Extra Info 
 ------|-------------------|:-----------:|:-------------:|------------
-**protein** | A UniProt Knowledgebase (UniProtKB) protein accession (AC)| Required | string | Example: `Q6GZX4`
-**gene** | An Ensembl gene ID | Required |  string |  Example: `ENSG00000010404`
+**protein** | A UniProt Knowledgebase (UniProtKB) protein accession (AC) [part 1 of 2-component composite primary key] | Required | string | Example: `Q6GZX4`
+**gene** | An Ensembl gene ID [part 2 of 2-component composite primary key] | Required |  string |  Example: `ENSG00000010404`
