@@ -14,6 +14,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [analysis_type.tsv](./TableInfo:-analysis_type.tsv)|Built by script|Y|CV term table
 [anatomy.tsv](./TableInfo:-anatomy.tsv)|Built by script|Y|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Built by script|Y|CV term table
+[biofluid.tsv](./TableInfo:-biofluid.tsv)|Built by script|Y|CV term table
 [biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|Y|This table will have one row for each biosample
 [biosample_disease.tsv](./TableInfo:-biosample_disease.tsv)|Prepared by submitter|Y|For biosamples with disease metadata, this table will have one row for each disease associated with each biosample, along with a field distinguishing "exemplar of disease" from "disease specifically ruled out"
 [biosample_from_subject.tsv](./TableInfo:-biosample_from_subject.tsv)|Prepared by submitter|Y|This table will have one row for each attribution of a biosample to a subject
@@ -22,6 +23,7 @@ Table (click for detailed information)|Construction|Can be empty?|Notes
 [biosample_substance.tsv](./TableInfo:-biosample_substance.tsv)|Prepared by submitter|Y|For biosamples with substance metadata, this table will have one row for each association of a substance with a biosample
 [collection.tsv](./TableInfo:-collection.tsv)|Prepared by submitter|Y|This table will have one row for each collection
 [collection_anatomy.tsv](./TableInfo:-collection_anatomy.tsv)|Prepared by submitter|Y|Each row in this table is equivalent to the statement "the contents of collection X directly relate to the study of anatomy Y", for one particular (collection X, anatomy Y) pair
+[collection_biofluid.tsv](./TableInfo:-collection_biofluid.tsv)|Prepared by submitter|Y|Each row in this table is equivalent to the statement "the contents of collection X directly relate to the study of biofluid Y", for one particular (collection X, biofluid Y) pair
 [collection_compound.tsv](./TableInfo:-collection_compound.tsv)|Prepared by submitter|Y|Each row in this table is equivalent to the statement "the contents of collection X directly relate to the study of compound Y", for one particular (collection X, compound Y) pair
 [collection_defined_by_project.tsv](./TableInfo:-collection_defined_by_project.tsv)|Prepared by submitter|Y|This table will have one row for each collection that was generated directly by a project listed in the [project.tsv](./TableInfo:-project.tsv) table
 [collection_disease.tsv](./TableInfo:-collection_disease.tsv)|Prepared by submitter|Y|Each row in this table is equivalent to the statement "the contents of collection X directly relate to the study of disease Y", for one particular (collection X, disease Y) pair
