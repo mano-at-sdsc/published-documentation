@@ -11,8 +11,8 @@
 
 Table (click for detailed information)|Construction|Can be empty?|Notes
 -----------|:-----------:|:-------------:|-------------
-[analysis_type.tsv](./TableInfo:-analysis_type.tsv)|Built by script|Y|CV term table
-[anatomy.tsv](./TableInfo:-anatomy.tsv)|Built by script|Y|CV term table
+[analysis_type.tsv](./TableInfo:-analysis_type.tsv.md)|Built by script|Y|CV term table
+[anatomy.tsv](./TableInfo:-anatomy.tsv.md)|Built by script|Y|CV term table
 [assay_type.tsv](./TableInfo:-assay_type.tsv)|Built by script|Y|CV term table
 [biofluid.tsv](./TableInfo:-biofluid.tsv)|Built by script|Y|CV term table
 [biosample.tsv](./TableInfo:-biosample.tsv)|Prepared&nbsp;by&nbsp;submitter|Y|This table will have one row for each biosample
