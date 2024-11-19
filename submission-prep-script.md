@@ -7,6 +7,7 @@ The following files are built automatically by this script and should not be han
 * `analysis_type.tsv`
 * `anatomy.tsv`
 * `assay_type.tsv`
+* `biofluid.tsv`
 * `compound.tsv`
 * `data_type.tsv`
 * `disease.tsv`
@@ -25,7 +26,7 @@ The following pre-submission validation checks are currently performed:
 
 ## Usage
 
-0. First build your `file.tsv`, `biosample.tsv`, `biosample_disease.tsv`, `biosample_gene.tsv`, `biosample_substance.tsv`, `subject_disease.tsv`, `subject_phenotype.tsv`, `subject_role_taxonomy.tsv`, `subject_substance.tsv`, `collection_anatomy.tsv`, `collection_compound.tsv`, `collection_disease.tsv`, `collection_gene.tsv`, `collection_phenotype.tsv`, `collection_protein.tsv`, `collection_substance.tsv` and `collection_taxonomy.tsv` tables. (Some of these can be left empty (as header-only TSVs) if desired: see the [C2M2 table wiki](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for requirements.)
+0. First build your `file.tsv`, `biosample.tsv`, `biosample_disease.tsv`, `biosample_gene.tsv`, `biosample_substance.tsv`, `subject_disease.tsv`, `subject_phenotype.tsv`, `subject_role_taxonomy.tsv`, `subject_substance.tsv`, `collection_anatomy.tsv`, `collection_biofluid.tsv`, `collection_compound.tsv`, `collection_disease.tsv`, `collection_gene.tsv`, `collection_phenotype.tsv`, `collection_protein.tsv`, `collection_substance.tsv` and `collection_taxonomy.tsv` tables. (Some of these can be left empty (as header-only TSVs) if desired: see the [C2M2 table wiki](https://github.com/nih-cfde/published-documentation/wiki/C2M2-Table-Summary) for requirements.)
 
 1. [Download the script [Last updated 8 Mar 2023]](https://osf.io/c67sp/) at OSF 
 
